@@ -149,14 +149,9 @@ p {
 }
 
 @media (max-width: 1300px) {
-  h1 {
-    font-size: 200%;
+  body {
+    font-size: 50%;
   }
-  
-  h2 {
-  font-size: 50%;
-  display: block;
-}
 
   .aside-left {
     display: block;
