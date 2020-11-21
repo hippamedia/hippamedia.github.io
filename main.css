@@ -41,8 +41,8 @@ main {
 .aside-content {
   left: 50%;
   margin-top: 150px;
-  margin-left: -305px;
-  padding: 0 40px;
+  margin-left: -33%;
+  padding: 0 0px;
   position: relative;
   color: white;
   text-align: left;
@@ -122,12 +122,12 @@ h1 {
 
 
 h2{
-  font-size: 200%;
+  font-size: 2.5vw;
   display: block;
 }
 
 p {
-  font-size: 10%;
+  font-size: 2vw;
 }
 
 .button {
@@ -144,3 +144,18 @@ p {
   border: 2px solid white;
 }
 
+@media all and (max-width: 800px) {
+h2{
+    font-size: 20px;
+  }
+}
+
+@media all and (min-width: 1600px) {
+h1{
+    font-size: 160px;
+  }
+
+h2{
+    font-size: 40px;
+  }
+}
