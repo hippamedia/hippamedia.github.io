@@ -24,7 +24,8 @@ a:visited {
 }
 
 a:hover {
-  background-color: #1a304b;
+  background-color: #00ced1;
+  text-decoration: none;
 }
 
 a:active {
@@ -220,7 +221,7 @@ h1 {
   font-size: 10vw;
   font-weight: bold;
   color: #FFFFFF;
-  text-shadow: 2px 2px 3px;
+  text-shadow: 2px 2px 4px #191919;
 }
 
 
