@@ -190,7 +190,7 @@ p {
   border: 2px solid white;
 }
 
-@media (min-width: 10px) {
+@media (min-width: 900px) {
   h1 {
     font-size: 100px;
   }
