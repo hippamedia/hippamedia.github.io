@@ -24,7 +24,7 @@ main {
 }
 
 .aside-left {
-  display: none;
+  display: block;
   opacity: 0.9;
   width: 100%;
   left: 0;
@@ -41,54 +41,11 @@ main {
 .aside-content {
   left: 50%;
   margin-top: 150px;
-  margin-left: -370px;
+  margin-left: -305px;
   padding: 0 40px;
   position: relative;
   color: white;
   text-align: left;
-}
-
-.aside-anchor::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #ff5964;
-  left: 0;
-  right: 0;
-  height: 3px;
-  border-radius: 3px;
-}
-
-.aside-anchor::before {
-  border-radius: 3px;
-  content: "";
-  position: absolute;
-  bottom: 0;
-  background-color: #fff;
-  left: 0;
-  height: 3px;
-  z-index: 1;
-  width: 10%;
-  -webkit-transition: transform 0.2s ease-in-out;
-  -o-transition: transform 0.2s ease-in-out;
-  transition: transform 0.2s ease-in-out;
-}
-
-.aside-anchor:hover:before {
-  -webkit-transform: translateX(100%);
-  -moz-transform: translateX(100%);
-  -ms-transform: translateX(100%);
-  -o-transform: translateX(100%);
-  transform: translateX(100%);
-}
-
-.aside-anchor {
-  padding-bottom: 7px;
-  color: #fff;
-  text-decoration: none;
-  font-size: 30px;
-  position: relative;
-  font-weight: 500;
 }
 
 input[type="checkbox"] {
@@ -134,7 +91,7 @@ label {
   padding: 7px 10px;
   background-color: transparent;
   cursor: pointer;
-  margin: 5px;
+  margin: 10px;
   z-index: 3;
   position: fixed;
 }
@@ -145,7 +102,7 @@ label {
   width: 30px;
   height: 3px;
   border-radius: 5px;
-  margin: 10px auto;
+  margin: 5px auto;
   transition: background-color 0.2s ease-in, transform 0.2s ease-in,
     width 0.2s ease-in;
 }
@@ -158,17 +115,18 @@ h1 {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
-  font-size: 30%;
+  font-size: 500%;
+  font-weight: bold;
   color: #FFFFFF;
 }
 
-h2 {
-  font-size: 20%;
+h1 span {
+  font-size: 40%;
   display: block;
 }
 
-h1 span {
-  font-size: 20%;
+h2{
+  font-size: 200%;
   display: block;
 }
 
@@ -190,9 +148,9 @@ p {
   border: 2px solid white;
 }
 
-@media (min-width: 10px) {
+@media (max-width: 1300px) {
   h1 {
-    font-size: 100px;
+    font-size: 100%;
   }
   .aside-left {
     display: block;
