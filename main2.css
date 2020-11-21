@@ -46,7 +46,7 @@ main {
 
 .aside-left {
   display: block;
-  width: 40%;
+  width: 50%;
   left: 0;
   background-color: #ff5964cc;
   -webkit-transform: translateY(-110%);
