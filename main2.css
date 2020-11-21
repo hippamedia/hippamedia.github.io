@@ -11,6 +11,22 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: none;
+}
+
 main {
   height: 100%;
   position: relative;
@@ -51,7 +67,7 @@ main {
 .text {
   margin: 0;
   position: relative;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-left: -33%;
   right: 0;
@@ -139,7 +155,7 @@ h2{
 }
 
 p {
-  font-size: 2vw;
+  font-size: 1.75vw;
   color: #FFFFFF;
 }
 
@@ -163,6 +179,12 @@ h2{
   }
 }
 
+p{
+    font-size: 10px;
+  }
+}
+
+
 @media all and (min-width: 1600px) {
 h1{
     font-size: 160px;
@@ -170,5 +192,10 @@ h1{
 
 h2{
     font-size: 40px;
+  }
+}
+
+p{
+    font-size: 20px;
   }
 }
