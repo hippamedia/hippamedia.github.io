@@ -11,7 +11,7 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
-selection { 
+::selection { 
             background: #ff5964;  
         } 
 
@@ -72,7 +72,7 @@ main {
   margin: 0;
   position: relative;
   top: 40%;
-  left: -50%;
+  left: -30%;
   margin-left: 0%;
   right: 0;
   text-align: right;
