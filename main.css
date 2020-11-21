@@ -50,7 +50,8 @@ main {
 
 .aside-left {
   display: block;
-  width: 50%;
+  width: 100%;
+  height: 50%;
   left: 0;
   background-color: #ff5964;
   -webkit-transform: translateY(-110%);
@@ -62,7 +63,9 @@ main {
 }
 
 .aside-right {
-  width: 50%;
+  width: 100%;
+  height: 50%;
+  top: 50%;
   right: 0;
   background-color: #38618c;
   -webkit-transform: translateX(100%);
