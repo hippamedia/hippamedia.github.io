@@ -115,7 +115,7 @@ h1 {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
-  font-size: 500%;
+  font-size: 20vw;
   font-weight: bold;
   color: #FFFFFF;
 }
@@ -148,12 +148,3 @@ p {
   border: 2px solid white;
 }
 
-@media (max-width: 600px) {
-  body {
-    font-size: 50%;
-  }
-
-  .aside-left {
-    display: block;
-  }
-}
