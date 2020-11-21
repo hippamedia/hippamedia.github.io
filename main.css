@@ -223,7 +223,8 @@ h1 {
   transform: translateY(-50%);
   text-align: center;
   font-size: 10vw;
-  font-weight: 1,800;
+  font-style: italic;
+  font-weight: 800;
   color: #FFFFFF;
   text-shadow: 2px 2px 4px #191919;
 }
@@ -231,14 +232,15 @@ h1 {
 
 h2{
   font-size: 2.5vw;
-  font-weight: 0,600;
+  line-height: 1.6;
+  font-weight: 600;
   display: block;
   color: #FFFFFF;
 }
 
 p {
   font-size: 2vw;
-  font-weight: 0,300;
+  font-weight: 300;
   color: #FFFFFF;
 }
 
