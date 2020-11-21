@@ -11,6 +11,10 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 
+selection { 
+            background: #ff5964;  
+        } 
+
 a:link {
     text-decoration: none;
 }
