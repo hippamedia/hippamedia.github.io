@@ -148,7 +148,7 @@ p {
   border: 2px solid white;
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 600px) {
   body {
     font-size: 50%;
   }
