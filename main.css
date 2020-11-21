@@ -212,7 +212,7 @@ label {
   width: 30px;
   height: 3px;
   border-radius: 5px;
-  margin: 10px auto;
+  margin: 5px auto;
   transition: background-color 0.2s ease-in, transform 0.2s ease-in,
     width 0.2s ease-in;
 }
