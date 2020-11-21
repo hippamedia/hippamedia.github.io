@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,800&display=swap');
 
 body,
 html {
@@ -9,7 +9,7 @@ background: linear-gradient(0deg, rgba(13,20,36,1) 0%, rgba(36,60,80,1) 100%);
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Kanit", sans-serif;
 }
 
 ::selection { 
@@ -221,7 +221,7 @@ h1 {
   text-align: center;
   font-size: 10vw;
   font-weight: bold;
-  background: -webkit-linear-gradient(bottom, #335e81, #22304f);
+  color: #FFFFFF;
   text-shadow: 2px 2px 4px #191919;
 }
 
