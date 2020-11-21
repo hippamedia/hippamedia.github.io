@@ -54,11 +54,11 @@ main {
   height: 50%;
   left: 0;
   background-color: #ff5964;
-  -webkit-transform: translateY(-110%);
-  -moz-transform: translateY(-110%);
-  -ms-transform: translateY(-110%);
-  -o-transform: translateY(-110%);
-  transform: translateY(-110%);
+  -webkit-transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  transform: translateY(-100%);
   transition: transform 0.2s ease-in-out;
 }
 
