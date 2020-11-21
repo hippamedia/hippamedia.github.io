@@ -38,6 +38,7 @@ main {
 }
 
 .aside-section {
+  box-shadow: 5px 5px 20px;
   top: 0;
   bottom: 0;
   position: absolute;
