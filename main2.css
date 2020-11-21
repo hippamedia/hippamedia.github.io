@@ -44,7 +44,7 @@ main {
 }
 
 .aside-left {
-  display: block;
+  display: hidden;
   opacity: 0.9;
   width: 100%;
   left: 0;
