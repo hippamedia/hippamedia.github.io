@@ -60,7 +60,7 @@ main {
 }
 
 .aside-right {
-  width: 100%;
+  width: 50%;
   right: 0;
   background-color: #38618c;
   -webkit-transform: translateX(100%);
