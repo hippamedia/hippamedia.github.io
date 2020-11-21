@@ -44,9 +44,9 @@ main {
 }
 
 .aside-left {
-  display: hidden;
-  opacity: 0.9;
-  width: 100%;
+  display: none;
+  opacity: 1.0;
+  width: 50%;
   left: 0;
   background-color: #ff5964;
   -webkit-transform: translateX(-100%);
