@@ -44,8 +44,8 @@ main {
 }
 
 .aside-left {
-  display: none;
-  width: 40%;
+  display: block;
+  width: 50%;
   left: 0;
   background-color: #ff5964;
   -webkit-transform: translateY(-100%);
@@ -162,19 +162,19 @@ input[type="checkbox"]:checked ~ label .bar {
 }
 
 input[type="checkbox"]:checked ~ label .top {
-  -webkit-transform: translateY(0px) rotateZ(45deg);
-  -moz-transform: translateY(0px) rotateZ(45deg);
-  -ms-transform: translateY(0px) rotateZ(45deg);
-  -o-transform: translateY(0px) rotateZ(45deg);
-  transform: translateY(0px) rotateZ(45deg);
+  -webkit-transform: translateY(8px) rotateZ(45deg);
+  -moz-transform: translateY(8px) rotateZ(45deg);
+  -ms-transform: translateY(8px) rotateZ(45deg);
+  -o-transform: translateY(8px) rotateZ(45deg);
+  transform: translateY(8px) rotateZ(45deg);
 }
 
 input[type="checkbox"]:checked ~ label .bottom {
-  -webkit-transform: translateY(-15px) rotateZ(-45deg);
-  -moz-transform: translateY(-15px) rotateZ(-45deg);
-  -ms-transform: translateY(-15px) rotateZ(-45deg);
-  -o-transform: translateY(-15px) rotateZ(-45deg);
-  transform: translateY(-15px) rotateZ(-45deg);
+  -webkit-transform: translateY(-8px) rotateZ(-45deg);
+  -moz-transform: translateY(-8px) rotateZ(-45deg);
+  -ms-transform: translateY(-8px) rotateZ(-45deg);
+  -o-transform: translateY(-8px) rotateZ(-45deg);
+  transform: translateY(-8px) rotateZ(-45deg);
 }
 
 input[type="checkbox"]:checked ~ label .middle {
