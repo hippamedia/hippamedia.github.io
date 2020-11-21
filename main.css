@@ -152,6 +152,12 @@ p {
   h1 {
     font-size: 100%;
   }
+  
+  h2 {
+  font-size: 50%;
+  display: block;
+}
+
   .aside-left {
     display: block;
   }
