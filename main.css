@@ -23,13 +23,15 @@ a:visited {
     text-decoration: none;
 }
 
+a:hover {
+  background-color: #1a304b;
+}
+
 a:active {
     text-decoration: none;
 }
 
-a:hover {
-  background-color: #1a304b;
-}
+
 
 main {
   height: 100%;
