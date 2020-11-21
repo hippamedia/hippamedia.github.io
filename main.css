@@ -158,22 +158,22 @@ h1 {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
-  font-size: 5vw;
+  font-size: 50%;
   color: #FFFFFF;
 }
 
 h2 {
-  font-size: 1vw;
+  font-size: 20%;
   display: block;
 }
 
 h1 span {
-  font-size: 1vw;
+  font-size: 20%;
   display: block;
 }
 
 p {
-  font-size: 1vw;
+  font-size: 10%;
 }
 
 .button {
