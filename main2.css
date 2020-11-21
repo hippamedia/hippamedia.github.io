@@ -137,7 +137,7 @@ label {
 h1 {
   margin: 0;
   position: relative;
-  top: 33%;
+  top: 50%;
   left: 0;
   right: 0;
   transform: translateY(-50%);
@@ -155,8 +155,7 @@ h2{
 }
 
 p {
-  font-size: 1.25vw;
-  display: block;
+  font-size: 2vw;
   color: #FFFFFF;
 }
 
@@ -178,13 +177,11 @@ p {
 h2{
     font-size: 20px;
   }
-}
-
+  
 p{
-    font-size: 10px;
+    font-size: 16px;
   }
 }
-
 
 @media all and (min-width: 1600px) {
 h1{
@@ -194,9 +191,8 @@ h1{
 h2{
     font-size: 40px;
   }
-}
-
+  
 p{
-    font-size: 20px;
+    font-size: 32px;
   }
 }
