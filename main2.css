@@ -155,7 +155,8 @@ h2{
 }
 
 p {
-  font-size: 1.75vw;
+  font-size: 1.25vw;
+  display: block;
   color: #FFFFFF;
 }
 
