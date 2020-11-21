@@ -4,7 +4,7 @@ body,
 html {
   overflow:hidden;
   background: rgb(13,20,36);
-background: linear-gradient(0deg, rgba(13,20,36,1) 0%, rgba(36,60,80,1) 100%);
+  background: linear-gradient(0deg, rgba(13,20,36,1) 0%, rgba(36,60,80,1) 100%);
   height: 100%;
   width: 100%;
   padding: 0;
@@ -54,11 +54,11 @@ main {
   height: 50%;
   left: 0;
   background-color: #ff5964;
-  -webkit-transform: translateY(-100%);
-  -moz-transform: translateY(-100%);
-  -ms-transform: translateY(-100%);
-  -o-transform: translateY(-100%);
-  transform: translateY(-100%);
+  -webkit-transform: translateY(-110%);
+  -moz-transform: translateY(-110%);
+  -ms-transform: translateY(-110%);
+  -o-transform: translateY(-110%);
+  transform: translateY(-110%);
   transition: transform 0.2s ease-in-out;
 }
 
@@ -212,7 +212,7 @@ label {
   width: 30px;
   height: 3px;
   border-radius: 5px;
-  margin: 5px auto;
+  margin: 10px auto;
   transition: background-color 0.2s ease-in, transform 0.2s ease-in,
     width 0.2s ease-in;
 }
