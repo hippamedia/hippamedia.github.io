@@ -124,10 +124,12 @@ h1 {
 h2{
   font-size: 2.5vw;
   display: block;
+  color: #FFFFFF;
 }
 
 p {
   font-size: 2vw;
+  color: #FFFFFF;
 }
 
 .button {
