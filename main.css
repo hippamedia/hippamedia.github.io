@@ -147,7 +147,7 @@ background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3
 }
 
 .text {
-  margin: 0;
+  margin-right: 133%;
   position: relative;
   top: 50%;
   left: 50%;
