@@ -273,6 +273,8 @@ p{
     font-size: 16px;
   }
 
+}
+
 @media all and (min-width: 1600px) {
 h1{
     font-size: 160px;
@@ -286,3 +288,4 @@ p{
     font-size: 32px;
   }
 
+}
