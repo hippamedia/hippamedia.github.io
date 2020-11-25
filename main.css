@@ -65,7 +65,7 @@ main {
 .aside-right {
   width: 50%;
   height: 100%;
-  top: 50%;
+  top: 0%;
   right: 0;
   background-color: #38618c;
   -webkit-transform: translateX(100%);
