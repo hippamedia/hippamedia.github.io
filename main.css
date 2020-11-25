@@ -54,6 +54,7 @@ div.fix {
 }
 
 .aside-left {
+  position: relative;
   display: block;
   width: 50%;
   height: 100%;
@@ -87,7 +88,6 @@ div.fix {
   margin-top: 150px;
   margin-left: 0%;
   padding: 0 0px;
-  position: relative;
   color: white;
   text-align: center;
 }
