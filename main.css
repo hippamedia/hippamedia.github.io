@@ -280,7 +280,7 @@ p{
 @media all and (min-width: 1600px) {
 	
 .text {
-  margin-right: calc(​100% + 550px);
+  margin-right: calc(​150%);
   position: relative;
   top: 50%;
   left: 50%;
