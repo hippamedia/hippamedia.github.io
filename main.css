@@ -86,7 +86,7 @@ background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3
 .aside-content-left {
   position: relative;
   left: 50%;
-  margin-top: 150px;
+  margin-top: 10%;
   margin-left: 0%;
   padding: 0 0px;
   color: white;
@@ -95,7 +95,7 @@ background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3
 
 .aside-content-right {
   left: -50%;
-  margin-top: 150px;
+  margin-top: 10%;
   margin-left: 0%;
   padding: 0 0px;
   position: relative;
