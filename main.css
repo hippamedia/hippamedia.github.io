@@ -59,7 +59,7 @@ div.fix {
   height: 66%;
   left: 0;
 background: rgb(148,187,233);
-background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,177,0.5) 50%, rgba(238,174,177,0) 100%);
+background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3) 50%, rgba(238,174,177,0) 100%);
   -webkit-transform: translateY(-100%);
   -moz-transform: translateY(-100%);
   -ms-transform: translateY(-100%);
@@ -74,7 +74,7 @@ background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,177,0.5
   top: 0%;
   right: 0;
 background: rgb(148,187,233);
-background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,177,0.5) 50%, rgba(238,174,177,0) 100%);
+background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3) 50%, rgba(238,174,177,0) 100%);
   -webkit-transform: translateX(100%);
   -moz-transform: translateX(100%);
   -ms-transform: translateX(100%);
