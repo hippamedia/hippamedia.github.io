@@ -54,7 +54,7 @@ div.fix {
 }
 
 .aside-left {
-  position: relative;
+  overflow-x: hidden;
   display: block;
   width: 50%;
   height: 100%;
