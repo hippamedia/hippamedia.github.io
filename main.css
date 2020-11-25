@@ -90,7 +90,7 @@ div.fix {
   padding-left: 50px;
 }
 
-.aside-content {
+.aside-content-left {
   left: 50%;
   margin-top: 150px;
   margin-left: 0%;
@@ -100,8 +100,14 @@ div.fix {
   text-align: center;
 }
 
-.aside-list li {
-  margin-bottom: 20px;
+.aside-content-right {
+  left: 50%;
+  margin-top: 150px;
+  margin-left: 0%;
+  padding: 0 0px;
+  position: relative;
+  color: white;
+  text-align: center;
 }
 
 .aside-anchor::after {
