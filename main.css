@@ -278,6 +278,17 @@ p{
 }
 
 @media all and (min-width: 1600px) {
+	
+.text {
+  margin-right: 300px;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  margin-left: -150px;
+  right: 0;
+  text-align: left;
+}
+
 h1{
     font-size: 160px;
   }
