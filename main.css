@@ -280,11 +280,11 @@ p{
 @media all and (min-width: 1600px) {
 	
 .text {
-  margin-right: 300px;
+  margin-right: 1000px;
   position: relative;
   top: 50%;
   left: 50%;
-  margin-left: -150px;
+  margin-left: -500px;
   right: 0;
   text-align: left;
 }
