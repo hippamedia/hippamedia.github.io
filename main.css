@@ -267,6 +267,11 @@ p{
 }
 
 @media all and (max-width: 800px) {
+
+h1{
+	top: 33%;
+}
+
 h2{
     font-size: 20px;
   }
@@ -291,7 +296,6 @@ p{
 
 h1{
     font-size: 160px;
-	 top: 33%;
   }
 
 h2{
