@@ -67,7 +67,7 @@ background: linear-gradient(180deg, rgba(148,187,233,1) 0%, rgba(238,174,216,0.3
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
-  transition: transform 0.3s ease-in-out;
+  transition: transform 0.25s ease-in-out;
 }
 
 .aside-right {
@@ -242,7 +242,6 @@ h2{
   font-size: 2.5vw;
   line-height: 0.9;
   font-weight: 600;
-  display: block;
   color: #FFFFFF;
 }
 
