@@ -40,7 +40,10 @@ main {
 }
 
 div.fix {
+	position: relative;
 	overflow-x: hidden;
+	height: 100%;
+	width: 100%;
 }
 
 .aside-section {
