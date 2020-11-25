@@ -47,6 +47,7 @@ div.fix {
 }
 
 .aside-section {
+  overflow: hidden;
   box-shadow: 0px 0px 0px;
   top: 0;
   bottom: 0;
