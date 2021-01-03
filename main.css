@@ -54,7 +54,6 @@ div.fix {
   margin-left: 0%;
   padding: 0 0px;
   color: white;
-  text-align: center;
 }
 
 .aside-section {
@@ -291,6 +290,7 @@ p{
 		font-weight: 600;
 		display: inline-block;
 		color: #FFFFFF;
+		text-align: center;
 	}
 	
 }
