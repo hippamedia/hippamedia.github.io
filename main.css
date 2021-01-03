@@ -52,7 +52,7 @@ div.fix {
   left: 0%;
   top: 10%;
   margin-left: 0%;
-  padding: 0 20px;
+  padding: 0 0px;
   color: white;
   text-align: center;
 }
@@ -254,6 +254,7 @@ h2{
   font-weight: 600;
   display: block;
   color: #FFFFFF;
+  padding: 0 20px;
 }
 
 p{
