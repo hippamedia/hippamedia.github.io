@@ -51,7 +51,7 @@ div.fix {
   transform: translateY(-50%);
   left: 0%;
   top: 10%;
-  margin-left: 0%;
+  margin: auto;
   padding: 0 0px;
   color: white;
 }
