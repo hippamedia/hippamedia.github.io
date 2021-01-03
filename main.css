@@ -268,9 +268,9 @@ p{
 
 @media only screen and (max-width: 1000px) {
 	
-	#my-input { display: none; }
-	#aside-left { display: none; }
-	#aside-right { display: none; }
+	.button { display: none; }
+	.aside-left { display: none; }
+	.aside-right { display: none; }
 	
 }
 
