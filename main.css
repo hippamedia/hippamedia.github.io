@@ -46,7 +46,7 @@ div.fix {
 }
 
 .menu {
-  position: relative;
+  position: absolute;
   left: 50%;
   top: calc(30% - 100px);
   margin-left: 0%;
