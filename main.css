@@ -55,11 +55,9 @@ div.fix {
 
 .logo {
   display: block;
-  width: 50px;
-  height: 50px;
   position: absolute;
   top: 25px;
-  left: calc(100% - 75px);
+  left: calc(100% - 100px);
   padding: 0px;
 }
 
