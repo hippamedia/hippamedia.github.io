@@ -48,11 +48,8 @@ div.fix {
 .menu {
   display: inline;
   position: absolute;
-  top: 10%;
-  left: 50%;
-  -ms-transform: translateX(-50%);
-  -webkit-transform: translate(-50%,0%);
-  transform: translate(-50%,0%);
+  top: 50px;
+  left: 25px;
   padding: 10px;
 }
 
