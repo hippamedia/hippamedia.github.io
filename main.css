@@ -57,7 +57,7 @@ div.fix {
   display: block;
   position: absolute;
   top: 25px;
-  left: calc(100% - 100px);
+  left: calc(100% - 150px);
   padding: 0px;
   text-shadow: 2px 2px 4px #191919;
 }
