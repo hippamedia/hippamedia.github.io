@@ -46,10 +46,13 @@ div.fix {
 }
 
 .menu {
-	position: relative;
-	overflow-x: hidden;
-	height: 100%;
-	width: 100%;
+  position: relative;
+  left: 50%;
+  top: calc(30% - 100px);
+  margin-left: 0%;
+  padding: 0 0px;
+  color: white;
+  text-align: center;
 }
 
 .aside-section {
@@ -244,7 +247,7 @@ h1 {
 
 
 h2{
-  font-size: 4vw;
+  font-size: 6vw;
   line-height: 0.9;
   font-weight: 600;
   display: block;
