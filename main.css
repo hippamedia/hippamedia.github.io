@@ -165,26 +165,26 @@ background: #FCBF49;
 }
 
 .text1 {
-  margin-right: 85%;
+  margin-right: 75%;
   position: relative;
   top: 200px;
-  left: 50%;
-  margin-left: -15%;
+  left: 45%;
+  margin-left: -25%;
   right: 0;
   text-align: left;
-  padding: 10px;
+  padding: 10px 10px;
   background-color: #00507A;
 }
 
 .text2 {
-  margin-right: 65%;
+  margin-right: 75%;
   position: relative;
   top: 200px;
-  left: 50%;
-  margin-left: -35%;
+  left: 55%;
+  margin-left: -25%;
   right: 0;
   text-align: left;
-  padding: 10px;
+  padding: 10px 10px;
   background-color: #001B29;
 }
 
