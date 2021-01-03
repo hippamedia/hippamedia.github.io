@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Raleway:wght@500&display=swap');
 
 body,
 html {
@@ -8,7 +8,8 @@ html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 ::selection { 
@@ -249,6 +250,7 @@ h1 {
   right: 0;
   transform: translateY(-50%);
   text-align: center;
+  font-family: 'Montserrat', sans-serif;
   font-size: 10vw;
   font-style: italic;
   font-weight: 800;
@@ -258,6 +260,7 @@ h1 {
 
 
 h2{
+  font-family: 'Montserrat', sans-serif;
   font-size: 6vw;
   line-height: 0.9;
   font-weight: 600;
@@ -267,7 +270,8 @@ h2{
 }
 
 p{
-  calc(7px + .5vw);
+  font-family: 'Raleway', sans-serif;
+  font-size: calc(7px + .5vw);
   font-weight: 300;
   color: #FFFFFF;
 }
