@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,600;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 
 body,
 html {
@@ -8,7 +8,7 @@ html {
   width: 100%;
   padding: 0;
   margin: 0;
-  font-family: "Kanit", sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 ::selection { 
@@ -24,7 +24,7 @@ a:visited {
 }
 
 a:hover {
-  background-color: #00ced1;
+  background-color: none;
   text-decoration: none;
 }
 
