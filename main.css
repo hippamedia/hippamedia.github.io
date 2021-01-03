@@ -57,7 +57,7 @@ div.fix {
 .logo {
   display: block;
   position: absolute;
-  top: 25px;
+  top: 50px;
   left: calc(100% - 150px);
   padding: 0px;
   text-shadow: 2px 2px 4px #191919;
@@ -166,7 +166,7 @@ background: #03CEA4;
 
 .text {
   margin-right: 75%;
-  position: absolute;
+  position: relative;
   top: 400px;
   left: 50%;
   margin-left: -25%;
