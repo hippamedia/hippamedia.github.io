@@ -59,6 +59,7 @@ div.fix {
   top: 25px;
   left: calc(100% - 200px);
   padding: 0px;
+  text-shadow: 2px 2px 4px #191919;
 }
 
 .aside-section {
