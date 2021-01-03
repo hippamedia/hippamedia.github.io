@@ -46,9 +46,10 @@ div.fix {
 }
 
 .menu {
+  display: inline;
   position: absolute;
-  left: 50%;
-  top: calc(30% - 100px);
+  left: 10%;
+  top: 10%;
   margin-left: 0%;
   padding: 0 0px;
   color: white;
@@ -282,12 +283,20 @@ p{
 	.aside-left { display: none; }
 	.aside-right { display: none; }
 	
+	h2{
+		font-size: 2.5vw;
+		line-height: 0.9;
+		font-weight: 600;
+		display: block;
+		color: #FFFFFF;
+	}
+	
 }
 
 @media only screen and (max-width: 1001px) {
 	
 	.menu { display: none; }
-	
+
 }
 
 
