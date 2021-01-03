@@ -268,7 +268,7 @@ p{
 
 @media only screen and (min-width: 1000px) {
 	
-	.button { display: none; }
+	.myInput { display: none; }
 	.aside-left { display: none; }
 	.aside-right { display: none; }
 	
