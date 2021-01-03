@@ -263,7 +263,7 @@ h2{
   font-weight: 600;
   display: block;
   color: #FFFFFF;
-  padding: 0 20px;
+  padding: 0 0px;
 }
 
 p{
@@ -301,6 +301,7 @@ p{
 		display: inline-block;
 		color: #FFFFFF;
 		text-align: center;
+		padding: 0 20px;
 	}
 	
 }
