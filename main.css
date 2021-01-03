@@ -57,7 +57,7 @@ div.fix {
 
 .aside-left {
   width: 50%;
-  height: 66%;
+  height: 100%;
   left: 0;
 background: #03CEA4;
 
@@ -66,12 +66,12 @@ background: #03CEA4;
   -ms-transform: translateY(-100%);
   -o-transform: translateY(-100%);
   transform: translateY(-100%);
-  transition: transform 0.25s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .aside-right {
   width: 50%;
-  height: 66%;
+  height: 100%;
   top: 0%;
   right: 0;
 background: #03CEA4;
@@ -80,7 +80,7 @@ background: #03CEA4;
   -ms-transform: translateX(100%);
   -o-transform: translateX(100%);
   transform: translateX(100%);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.2s ease-in-out;
 }
 
 .aside-content-left {
