@@ -167,7 +167,7 @@ background: #FCBF49;
 .text {
   margin-right: 75%;
   position: relative;
-  top: 100px;
+  top: 200px;
   left: 50%;
   margin-left: -25%;
   right: 0;
@@ -254,7 +254,7 @@ h1 {
   font-size: 10vw;
   font-style: italic;
   font-weight: 800;
-  color: #FFFFFF;
+  color: #EAE2B7;
   text-shadow: 2px 2px 4px #191919;
 }
 
@@ -265,13 +265,13 @@ h2{
   line-height: 0.9;
   font-weight: 600;
   display: block;
-  color: #FFFFFF;
+  color: #003049;
   padding: 0 0px;
 }
 
 p{
   font-family: 'Raleway', sans-serif;
-  font-size: calc(15px + 2vw);
+  font-size: calc(15px + 1vw);
   font-weight: 300;
   color: #FFFFFF;
 }
@@ -303,7 +303,7 @@ p{
 		line-height: 0.9;
 		font-weight: 600;
 		display: inline-block;
-		color: #FFFFFF;
+		color: #EAE2B7;
 		text-align: center;
 		padding: 0 20px;
 	}
