@@ -56,8 +56,8 @@ div.fix {
 .logo {
   display: inline;
   position: absolute;
-  margin-top: 25px;
-  margin-left: calc(100% - 100px);
+  top: 25px;
+  left: calc(100% - 100px);
   padding: 0px;
 }
 
