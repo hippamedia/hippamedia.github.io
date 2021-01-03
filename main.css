@@ -267,7 +267,7 @@ h2{
 }
 
 p{
-  font-size: 2vw;
+  calc(7px + .5vw);
   font-weight: 300;
   color: #FFFFFF;
 }
