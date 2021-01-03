@@ -271,7 +271,7 @@ h2{
 
 p{
   font-family: 'Raleway', sans-serif;
-  font-size: calc(7px + .5vw);
+  font-size: calc(15px + 2vw);
   font-weight: 300;
   color: #FFFFFF;
 }
