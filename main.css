@@ -166,8 +166,8 @@ background: #03CEA4;
 
 .text {
   margin-right: 75%;
-  position: relative;
-  top: 50%;
+  position: absolute;
+  top: 400px;
   left: 50%;
   margin-left: -25%;
   right: 0;
