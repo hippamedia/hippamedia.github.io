@@ -319,7 +319,7 @@ p{
 		line-height: 0.9;
 		font-weight: 600;
 		display: inline-block;
-		color: #EDF5E1;
+		color: #FFFFFF;
 		text-align: center;
 		padding: 0 20px;
 	}
@@ -331,11 +331,11 @@ p{
 	.menu { display: none; }
 	
 	.text1 {
-  margin-right: 90%;
+  margin-right: 25%;
   position: relative;
   top: 200px;
   left: 50%;
-  margin-left: -10%;
+  margin-left: -75%;
   right: 0;
   text-align: left;
   padding: 100px;
@@ -344,11 +344,11 @@ p{
 }
 
 	.text2 {
-  margin-right: 90%;
+  margin-right: 25%;
   position: relative;
   top: 300px;
   left: 50%;
-  margin-left: -10%;
+  margin-left: -75%;
   right: 0;
   text-align: left;
   padding: 100px;
