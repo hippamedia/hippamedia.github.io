@@ -165,28 +165,28 @@ background: #05386B;
 }
 
 .text1 {
-  margin-right: 75%;
+  height: 300px;
+  width: 300px;
   position: relative;
   top: 20%;
-  left: 45%;
-  margin-left: -25%;
+  left: calc(50% - 150px);
   right: 0;
   text-align: left;
-  padding: 200px;
-  background-color: #00507A;
+  padding: 100px;
+  background-color: #EDF5E1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .text2 {
-  margin-right: 75%;
+  height: 300px;
+  width: 300px;
   position: relative;
   top: 20%;
-  left: 55%;
-  margin-left: -25%;
+  left: calc(50% - 150px);
   right: 0;
   text-align: left;
-  padding: 200px;
-  background-color: #001B29;
+  padding: 100px;
+  background-color: #EDF5E1;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -289,7 +289,7 @@ p{
   font-family: 'Raleway', sans-serif;
   font-size: calc(15px + 1vw);
   font-weight: 300;
-  color: #EDF5E1;
+  color: #05386B;
 }
 
 .button {
