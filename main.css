@@ -112,7 +112,7 @@ background-size: cover;
 .aside-content-left {
   position: relative;
   left: 50%;
-  top: calc(30% - 100px);
+  top: 200px;
   margin-left: 0%;
   padding: 0 0px;
   color: white;
@@ -121,7 +121,7 @@ background-size: cover;
 
 .aside-content-right {
   left: -50%;
-  top: calc(30% - 100px);
+  top: 200px;
   margin-left: 0%;
   padding: 0 0px;
   position: relative;
