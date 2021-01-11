@@ -54,7 +54,7 @@ div.fix {
   display: block;
   position: absolute;
   top: 25px;
-  left: -300px;
+  left: 0px;
   padding: 10px;
 }
 
