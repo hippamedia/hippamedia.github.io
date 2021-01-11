@@ -50,12 +50,11 @@ div.fix {
 }
 
 .menu {
-	margin-left: 20%;
-	margin-right: 80%;
   display: block;
   position: absolute;
   top: 25px;
-  left:0px;
+  margin-right: 25%;
+  margin-left: 25%;
   padding: 10px;
 }
 
