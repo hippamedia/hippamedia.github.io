@@ -344,6 +344,7 @@ p{
   margin-right: 5%;
   position: absolute;
   top: 150px;
+  left: 0;
   text-align: left;
   padding: 10px;
 }
@@ -354,6 +355,7 @@ p{
   margin-right: 5%;
   position: absolute;
   top: 400px;
+  left: 0;
   text-align: left;
   padding: 10px;
 }
