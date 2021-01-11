@@ -342,12 +342,13 @@ p{
 		display: block;
   margin-right: 5%;
   position: absolute;
-  top: 150px;
+  top: 100px;
   left: 0%;
   margin-left: 5%;
   right: 0;
   text-align: left;
   padding: 10px;
+  color: #5CDB95;
 }
 
 	.text2 {
@@ -360,6 +361,7 @@ p{
   right: 0;
   text-align: left;
   padding: 10px;
+  color: #5CDB95;
 }
 
 }
