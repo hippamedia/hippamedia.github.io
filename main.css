@@ -191,8 +191,8 @@ background-size: cover;
   margin-right: 5%;
   position: absolute;
   top: 150px;
-  left: 0;
-  right: 20%;
+  left: 80;
+  right: 0;
   text-align: left;
   padding: 10px;
 }
