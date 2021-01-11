@@ -50,7 +50,7 @@ div.fix {
 }
 
 .menu {
-  display: inline;
+  display: block;
   position: absolute;
   top: 25px;
   margin-right: 0%;
