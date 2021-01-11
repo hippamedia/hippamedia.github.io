@@ -339,6 +339,7 @@ p{
 	.menu { display: none; }
 	
 	.text1 {
+		display: block;
   margin-right: 5%;
   position: absolute;
   top: 200px;
@@ -352,6 +353,7 @@ p{
 }
 
 	.text2 {
+		display: block;
   margin-right: 5%;
   position: absolute;
   top: 300px;
