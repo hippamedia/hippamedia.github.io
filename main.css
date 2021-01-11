@@ -175,8 +175,8 @@ background-size: cover;
 
 .text1 {
 	display: block;
-	margin-left: 5%;
-  margin-right: 5%;
+	margin-left: 0%;
+  margin-right: 0%;
   position: absolute;
   top: 150px;
   left: 20%;
@@ -187,8 +187,8 @@ background-size: cover;
 
 .text2 {
 	display: block;
-	margin-left: 5%;
-  margin-right: 5%;
+	margin-left: 0%;
+  margin-right: 0%;
   position: absolute;
   top: 150px;
   left: 80;
