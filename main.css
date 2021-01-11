@@ -51,10 +51,11 @@ div.fix {
 
 .menu {
 	margin: auto;
+	width: 50%;
   display: block;
   position: absolute;
   top: 25px;
-  left: 0px;
+  left: -300px;
   padding: 10px;
 }
 
