@@ -506,7 +506,7 @@ and (orientation : landscape) {
 		margin-left: 5%;
 		margin-right: 5%;
 		position: absolute;
-		top: 80px;
+		top: 70px;
 		left: 0;
 		right: 0;
 		text-align: center;
@@ -515,7 +515,7 @@ and (orientation : landscape) {
 	
 	p {
 	font-family: 'Abril Fatface', cursive;
-	font-size: 40px;
+	font-size: 50px;
 	font-weight: 500;
 	line-height: 1;
 	color: rgb(255, 255, 255, 1.0);
