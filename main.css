@@ -475,5 +475,41 @@ h3 {
 	padding: 0, 0;
 	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
 	}
-
+	
 }
+
+@media only screen and (max-height: 800px) {
+	
+	.bar {
+		display: none;
+	}
+	.aside-left {
+		display: none;
+	}
+	.aside-right {
+		display: none;
+	}
+	
+	.text1 {
+		display: block;
+		margin-left: 5%;
+		margin-right: 5%;
+		position: absolute;
+		top: 50px;
+		left: 0;
+		right: 0;
+		text-align: center;
+		padding: 0, 0px;
+	}
+	
+	p {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 1;
+	color: rgb(255, 255, 255, 1.0);
+	padding: 0, 0;
+	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
+	}
+}
+
