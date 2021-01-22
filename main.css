@@ -476,7 +476,8 @@ h3 {
 	
 }
 
-@media only screen and (max-height: 800px) {
+@media only screen and (max-height: 600px)
+and (orientation : landscape) {
 	
 	.bar {
 		display: none;
