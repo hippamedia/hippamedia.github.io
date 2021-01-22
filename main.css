@@ -491,8 +491,10 @@ h3 {
 @media screen and (orientation:landscape)
 	and (min-device-width: 319px) 
 	and (max-device-width: 480px) {
-   
-   .bar {
+   	.menu {
+		display:block;
+	}
+    .bar {
 		display: none;
 	}
 	.aside-left {
