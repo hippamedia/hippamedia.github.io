@@ -121,7 +121,7 @@ a:active {
 .aside-content-right {
 	position: relative;
 	left: -50%;
-	top: 200px;
+	right: 200px;
 	margin-left: 0%;
 	padding: 0 0px;
 	color: white;
