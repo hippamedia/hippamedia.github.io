@@ -109,7 +109,7 @@ a:active {
 }
 
 .aside-content-left {
-	position: fixed;
+	position: relative;
 	left: 50%;
 	top: 200px;
 	margin-left: 0%;
@@ -119,7 +119,7 @@ a:active {
 }
 
 .aside-content-right {
-	position: fixed;
+	position: relative;
 	left: -50%;
 	top: 200px;
 	margin-left: 0%;
