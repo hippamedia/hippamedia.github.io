@@ -15,7 +15,7 @@ html {
 	margin: 0;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Montserrat', sans-serif;
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .taustavideo {
@@ -35,7 +35,7 @@ html {
 	min-width: 100%;
 	min-height: 100%;
 	transform: translateX(-50%) translateY(-50%);
-	opacity: 0.6;
+	opacity: 0.5;
 }
 
 ::selection {
@@ -320,7 +320,7 @@ p {
 }
 
 h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1;
@@ -374,7 +374,7 @@ h3 {
 	}
 	
 	h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1;
@@ -445,7 +445,7 @@ h3 {
 	}
 	
 	h3 {
-	font-family: 'Roboto', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	font-size: 15px;
 	font-weight: 100;
 	line-height: 1;
@@ -484,24 +484,6 @@ h3 {
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
 	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
-	}
-
-}
-
-@media screen and (orientation:landscape)
-	and (min-device-width: 319px) 
-	and (max-device-width: 480px) {
-   	.menu {
-		display:block;
-	}
-    .bar {
-		display: none;
-	}
-	.aside-left {
-		display: none;
-	}
-	.aside-right {
-		display: none;
 	}
 
 }
