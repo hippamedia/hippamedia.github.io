@@ -132,7 +132,7 @@ div.fix {
 	top: 200px;
 	margin-left: 0%;
 	padding: 0 0px;
-	position: absolute;
+	position: relative;
 	color: white;
 	text-align: center;
 }
