@@ -74,8 +74,6 @@ a:active {
 	box-shadow: 0px 0px 0px;
 	top: 0;
 	bottom: 0;
-	left: 0;
-	right: 0;
 	position: absolute;
 	-webkit-transform: translateZ(0);
 	-webkit-mask-image: -webkit-radial-gradient(circle, white 100%, black 100%);
