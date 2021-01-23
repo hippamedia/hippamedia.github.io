@@ -63,9 +63,9 @@ a:active {
 .menu {
 	display: block;
 	position: absolute;
-	top: calc(40px + 10vw);
+	top: calc(39px + 10vw);
 	margin-right: 38px;
-	margin-left: -10px;
+	margin-left: -23px;
 	padding: 10px;
 }
 
@@ -171,7 +171,7 @@ a:active {
 
 .logo {
 	display: block;
-	margin-left: 70px;
+	margin-left: calc(6% - 26px);
 	margin-right: 5%;
 	position: absolute;
 	top: 30px;
@@ -261,13 +261,13 @@ label {
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 3.4vw;
+	font-size: 2.82vw;
 	line-height: 0.25;
 	font-weight: 600;
 	display: inline-block;
 	color: #FFFFFF;
 	text-align: left;
-	text-indent: 1.4em;
+	text-indent: 2em;
 	text-shadow:  0px 0px 15px rgba(0, 0, 0, 0.75);
 }
 
@@ -334,26 +334,105 @@ h3 {
 	display: block;
 	position: absolute;
 	top: 200px;
-	margin-right: 4%;
-	margin-left: calc(50% - 810px);
+	margin-right: 3%;
+	margin-left: calc(50% - 823px);
 	padding: 10px;
 	}
 
 	h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 55px;
+	font-size: 45px;
 	line-height: 0.2;
 	font-weight: 600;
 	display: inline-block;
 	color: #FFFFFF;
 	text-align: left;
-	text-indent: 1.4em;
+	text-indent: 2em;
 	text-shadow:  0px 0px 15px rgba(0, 0, 0, 0.75);
 	}
 	
 	p {
 	font-family: 'Abril Fatface', cursive;
 	font-size: 120px;
+	font-weight: 500;
+	line-height: 0.9;
+	color: rgb(255, 255, 255, 1.0);
+	padding: 0, 0;
+	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
+	}
+	
+	h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 1;
+	color: rgb(255, 255, 255, 1.0);
+	padding: 0, 0;
+	}
+	
+	.text1 {
+	display: block;
+	margin-right: 15%;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: calc(60% - 1100px);
+	text-align: right;
+	padding: 10px;
+	}
+	
+	.copyright {
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0, 0px;
+	}
+}
+
+@media only screen and (min-width: 1600px)
+		and (min-aspect-ratio: 8/5){
+
+	.logo {
+	display: block;
+	margin-left: calc(50% - 730px);
+	margin-right: 5%;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	text-align: center;
+	padding: 10px;
+	width: 640px;
+	}
+
+	.menu {
+	display: block;
+	position: absolute;
+	top: 200px;
+	margin-right: 3%;
+	margin-left: calc(50% - 823px);
+	padding: 10px;
+	}
+
+	h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 45px;
+	line-height: 0.2;
+	font-weight: 600;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 2em;
+	text-shadow:  0px 0px 15px rgba(0, 0, 0, 0.75);
+	}
+	
+	p {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 100px;
 	font-weight: 500;
 	line-height: 0.9;
 	color: rgb(255, 255, 255, 1.0);
@@ -476,6 +555,88 @@ h3 {
 	
 }
 
+@media only screen and (max-width: 1600px)
+and (min-aspect-ratio: 8/5){
+
+
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2.82vw;
+	line-height: 0.25;
+	font-weight: 600;
+	display: inline-block;
+	color: #FFFFFF;
+	text-align: left;
+	text-indent: 2em;
+	text-shadow:  0px 0px 15px rgba(0, 0, 0, 0.75);
+}
+p {
+	font-family: 'Abril Fatface', cursive;
+	font-size: 6vw;
+	font-weight: 500;
+	line-height: 0.9;
+	color: rgb(255, 255, 255, 1.0);
+	padding: 0, 0;
+	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
+}
+	
+	h3 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 15px;
+	font-weight: 100;
+	line-height: 1;
+	color: rgb(255, 255, 255, 1.0);
+	padding: 0, 0;
+	}
+	
+.menu {
+	display: block;
+	position: absolute;
+	top: calc(39px + 10vw);
+	margin-right: 38px;
+	margin-left: -23px;
+	padding: 10px;
+}
+	
+.logo {
+	display: block;
+	margin-left: calc(6% - 26px);
+	margin-right: 5%;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	text-align: center;
+	padding: 10px;
+	width: 40vw;
+}
+
+.text1 {
+	display: block;
+	margin-right: 15%;
+	position: absolute;
+	top: 30%;
+	left: 0;
+	right: -9%;
+	text-align: right;
+	padding: 10px;
+}
+	
+	.copyright {
+	display: block;
+	margin-left: 5%;
+	margin-right: 5%;
+	position: absolute;
+	bottom: 3%;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0, 0px;
+	}
+}
+
+}
+
 @media only screen and (max-height: 800px)
 and (orientation : landscape) {
 	
@@ -491,14 +652,14 @@ and (orientation : landscape) {
 	
 	.logo {
 		display: block;
-		margin-left: calc(50% - 10vw);
+		margin-left: calc(50% - 100px);
 		margin-right: 5%;
 		position: absolute;
 		top: 10px;
 		left: 0;
 		text-align: center;
 		padding: 10px;
-		width: 20vw;
+		width: 200px;
 	}
 	
 	.text1 {
@@ -521,6 +682,26 @@ and (orientation : landscape) {
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
 	text-shadow:  2px 20px 20px rgba(0, 0, 0, 0.55);
+	}
+	
+	h2 {
+		font-size: 30px;
+		line-height: 1;
+		font-weight: 600;
+		display: inline-block;
+		color: #FFFFFF;
+		text-align: center;
+		padding: 0 0px;
+		text-indent: 0em;
+	}
+	
+	.menu {
+	display: block;
+	position: absolute;
+	top: 20px;
+	margin-right: calc(50% + 300px);
+	margin-left: calc(50% - 400px);
+	padding: 10px;
 	}
 }
 
