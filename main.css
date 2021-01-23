@@ -555,7 +555,7 @@ h3 {
 	
 }
 
-<<<<<<< HEAD
+
 @media only screen and (max-width: 1600px)
 and (min-aspect-ratio: 8/5){
 
@@ -638,10 +638,9 @@ p {
 
 }
 
-@media only screen and (max-height: 800px)
-=======
+
 @media only screen and (max-height: 600px)
->>>>>>> 2fd51726dec63a0de619f8e58a3a7320f322ffb7
+
 and (orientation : landscape) {
 	
 	.bar {
