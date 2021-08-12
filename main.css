@@ -353,9 +353,9 @@ h3 {
 	}
 	
 	p {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 120px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 0.9;
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
@@ -432,9 +432,9 @@ h3 {
 	}
 	
 	p {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 100px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 0.9;
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
@@ -545,9 +545,9 @@ h3 {
 	}
 	
 	p {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 10vw;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1;
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
@@ -574,9 +574,9 @@ h2 {
 	text-shadow:  0px 0px 15px rgba(0, 0, 0, 0.75);
 }
 p {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 6vw;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 0.9;
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
@@ -679,9 +679,9 @@ and (orientation : landscape) {
 	}
 	
 	p {
-	font-family: 'Abril Fatface', cursive;
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-size: 40px;
-	font-weight: 500;
+	font-weight: 700;
 	line-height: 1;
 	color: rgb(255, 255, 255, 1.0);
 	padding: 0, 0;
