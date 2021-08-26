@@ -1,8 +1,15 @@
+* {
+	box-sizing: border-box;
+}
+
 body,
 html {
 	background-color: #fedd29;
-	padding: 0;
-	margin: 0;
+	max-width: 100%;
+	overflow-x: hidden;
+	position: fixed;
+	height: 100%;
+	width: 100%;
 	font-family: 'Abril Fatface', cursive;
 	font-family: 'Montserrat', sans-serif;
 	font-family: 'Raleway', sans-serif;
