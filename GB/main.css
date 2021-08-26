@@ -66,7 +66,6 @@ a:active {
 	margin-left: calc(50% - 707px);
 	position: absolute;
 	top: 30px;
-	left: 0;
 	text-align: center;
 	padding: 10px;
 }
@@ -92,13 +91,11 @@ img.light-shadow {
 	.logo {
 		display: block;
 		margin-left: calc(50% - 707px);
-		margin-right: 0%;
 		position: absolute;
 		top: 30px;
-		left: 0;
 		text-align: center;
 		padding: 10px;
-		width: 20vw;
+		width: 5vw;
 	}
 	
 }
