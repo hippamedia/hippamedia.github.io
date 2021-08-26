@@ -113,7 +113,7 @@ h1 {
 		text-indent: 2em;
 		}
 		
-		.text {
+	.text {
 		position: absolute;
 		top: calc(40% + 300px);
 		left: 20%;
