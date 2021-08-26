@@ -34,7 +34,6 @@ a:active {
 .logo {
 	display: block;
 	margin-left: calc(50% - 707px);
-	margin-right: 5%;
 	position: absolute;
 	top: 30px;
 	left: 0;
