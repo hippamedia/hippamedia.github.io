@@ -115,7 +115,7 @@ h1 {
 		
 	.text {
 		position: absolute;
-		top: calc(40% + 300px);
+		top: calc(40% + 0px);
 		left: 20%;
 		}
 }
