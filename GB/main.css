@@ -65,7 +65,7 @@ a:active {
 	display: block;
 	margin-left: calc(50% - 707px);
 	position: absolute;
-	top: 30px;
+	top: 30%;
 	text-align: center;
 	padding: 10px;
 }
@@ -90,9 +90,9 @@ img.light-shadow {
 	
 	img.light-shadow {
 		display: block;
-		margin-left: 10px;
+		margin-left: 50%;
 		position: absolute;
-		top: 10px;
+		top: 30%;
 		left: 0px;
 		text-align: center;
 		padding: 10px;
