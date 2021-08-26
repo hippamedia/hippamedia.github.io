@@ -64,8 +64,6 @@ a:active {
 	position: absolute;
 	top: 50%;
 	left: 0%;
-	min-width: 100%;
-	min-height: 100%;
 }
 
 img.light-shadow {
