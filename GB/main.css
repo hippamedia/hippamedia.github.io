@@ -1,11 +1,6 @@
 body,
 html {
-	max-width: 100%;
-	overflow-x: hidden;
-	background-color: #000000;
-	position: fixed;
-	height: 100%;
-	width: 100%;
+	background-color: #fedd29;
 	padding: 0;
 	margin: 0;
 	font-family: 'Abril Fatface', cursive;
@@ -38,14 +33,13 @@ a:active {
 
 .logo {
 	display: block;
-	margin-left: calc(6% - 26px);
+	margin-left: calc(50% - 707px);
 	margin-right: 5%;
 	position: absolute;
 	top: 30px;
 	left: 0;
 	text-align: center;
 	padding: 10px;
-	width: 100%;
 }
 
 .text1 {
