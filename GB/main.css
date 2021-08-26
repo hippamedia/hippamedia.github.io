@@ -60,6 +60,14 @@ a:active {
 	playbackrate: 0.5;
 }
 
+.text {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 100%;
+}
+
 img.light-shadow {
 	display: block;
 	margin-left: calc(50% - 707px);
@@ -106,6 +114,7 @@ h1 {
 		padding: 0 0px;
 		text-indent: 0em;
 		}
+		
 
 	
 }
