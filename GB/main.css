@@ -90,9 +90,9 @@ img.light-shadow {
 	
 	img.light-shadow {
 		display: block;
-		margin-left: calc(50% - 0px);
+		margin-left: calc(50% - 10px);
 		position: absolute;
-		top: 30px;
+		top: 20px;
 		text-align: center;
 		padding: 10px;
 		width: 95vw;
