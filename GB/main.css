@@ -63,7 +63,7 @@ a:active {
 .text {
 	position: absolute;
 	top: 50%;
-	left: calc(50% - 100px);
+	left: calc(50% - 400px);
 }
 
 img.light-shadow {
