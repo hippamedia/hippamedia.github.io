@@ -58,6 +58,7 @@ a:active {
 	min-height: 100%;
 	transform: translateX(-50%) translateY(-50%);
 	opacity: 0.5;
+	playbackrate: 0.5;
 }
 
 .logo {
