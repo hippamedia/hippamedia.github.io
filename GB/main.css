@@ -63,7 +63,7 @@ a:active {
 .text {
 	position: absolute;
 	top: 50%;
-	left: calc (50% - 100px);
+	left: 50%;
 	min-width: 100%;
 	min-height: 100%;
 }
@@ -112,7 +112,7 @@ h1 {
 		color: #FFFFFF;
 		text-align: center;
 		padding: 0 0px;
-		text-indent: 0em;
+		text-indent: 2em;
 		}
 		
 
