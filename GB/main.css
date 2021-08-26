@@ -91,10 +91,10 @@ img.light-shadow {
 		margin-left: 0%;
 		position: absolute;
 		top: 20%;
-		left: 0px;
+		left: 20px;
 		text-align: center;
 		padding: 10px;
-		width: 95vw;
+		width: 100vw;
 	}
 	
 }
