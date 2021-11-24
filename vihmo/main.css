@@ -5,7 +5,7 @@
 
 body,
 html {
-	background-image: linear-gradient( rgba(255, 255, 255, 0.25), rgba(255, 255, 255, 0.25) ), url('/vihmo/tausta.jpg'); background-repeat: no-repeat;  background-position: center;
+	background-image: linear-gradient( rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75) ), url('/vihmo/tausta.jpg'); background-repeat: no-repeat;  background-position: center;
 	max-width: 100%;
 	overflow-x: hidden;
 	position: fixed;
