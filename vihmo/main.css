@@ -42,7 +42,7 @@ a:active {
 .text {
 	position: absolute;
 	top: 30%;
-	left: calc(50% + 400px);
+	left: calc(50% - 1000px);
 }
 
 h1 {
