@@ -5,9 +5,8 @@
 
 body,
 html {
-	
-    background: linear-gradient(#FFFFFF 50%, #F5F5F5 0);
-    background-size: 100% 200px;
+	background-image: "/vihmo/tausta.jpg";
+    opacity: 0.25;
 	max-width: 100%;
 	overflow-x: hidden;
 	position: fixed;
