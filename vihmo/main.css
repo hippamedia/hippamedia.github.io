@@ -6,7 +6,6 @@
 body,
 html {
 	background-image: linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7) ), url('/vihmo/tausta.jpg'); background-repeat: no-repeat;  background-position: center;
-    opacity: 0.25;
 	max-width: 100%;
 	overflow-x: hidden;
 	position: fixed;
