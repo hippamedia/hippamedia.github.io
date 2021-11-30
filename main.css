@@ -82,7 +82,7 @@ a:active {
 
 .otsikko {
 	position: absolute;
-	transform: translateX(120%) translateY(-50%);
+	transform: translateX(100%) translateY(-50%);
 	text-align: center;
 	top: 50%;
 }
@@ -95,7 +95,7 @@ a:active {
 
 .copyright {
 	position: relative;
-	top: 50%;
+	top: 100%;
 	text-align: center;
 }
 
