@@ -95,7 +95,7 @@ a:active {
 
 .copyright {
 	position: relative;
-	margin-top: 50%;
+	top: 50%;
 	text-align: center;
 }
 
