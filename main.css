@@ -100,9 +100,18 @@ a:active {
 }
 
 
-h2 {
+h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 10vw;
+	line-height: 1;
+	font-weight: 600;
+	display: block;
+	color: rgba(255, 255, 255, 1.0);
+}
+
+h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 8vw;
 	line-height: 1;
 	font-weight: 600;
 	display: block;
