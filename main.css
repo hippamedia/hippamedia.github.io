@@ -82,7 +82,7 @@ a:active {
 
 .otsikko {
 	position: absolute;
-	transform: translateX(80%) translateY(-50%);
+	transform: translateX(90%) translateY(-50%);
 	text-align: center;
 	top: 50%;
 }
