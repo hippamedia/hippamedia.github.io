@@ -10,8 +10,8 @@ html {
     overflow-x: hidden;
 	scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
-	background-color: rgba(0, 0, 0, 0.3);
-	position: fixed;
+	background-color: rgba(0, 0, 0, 0.2);
+	position: absolute;
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -81,16 +81,15 @@ a:active {
 
 
 .otsikko {
-	position: absolute;
-	transform: translateX(87%) translateY(-50%);
+	position: fixed;
 	text-align: center;
-	top: 50%;
 }
 
 .text {
 	position: relative;
-	text-align: center;
-	top: 50%;
+	text-align: right;
+	background-color: rgba(0,0,0,0.7);
+	top: 100vh;
 }
 
 .copyright {
@@ -111,8 +110,8 @@ h1 {
 
 h2 {
 	font-family: 'Montserrat', sans-serif;
-	font-size: 8vw;
-	line-height: 1;
+	font-size: 6vw;
+	line-height: 4;
 	font-weight: 600;
 	display: block;
 	color: rgba(255, 255, 255, 1.0);
@@ -121,7 +120,7 @@ h2 {
 h3 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 2vw;
-	line-height: 0.25;
+	line-height: 0.5;
 	font-weight: 600;
 	display: inline-block;
 	color: rgba(255, 255, 255, 1.0);
