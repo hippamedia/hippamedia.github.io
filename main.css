@@ -95,7 +95,6 @@ a:active {
 	background-color: rgba(0,0,0,0.7);
 	overflow:auto;
 	top: 100vh;
-	overscroll-behavior-y: contain;
 }
 
 .copyright {
