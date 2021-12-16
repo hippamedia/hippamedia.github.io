@@ -30,7 +30,31 @@ html {
     background: transparent;  /* Optional: just make scrollbar invisible */
 }
 
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
 
 .taustavideo {
 	display: grid;
