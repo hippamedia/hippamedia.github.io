@@ -14,16 +14,16 @@ var _positions = [
     	percent: 0.0, x: 0.0, y: 0.03
   	},
     end: {
-      percent: 0.5, x: 0.0, y: 0.28
+      percent: 1, x: 0.00, y: 0.1
     }
   },
   {
     name: 'media', 
    	start: {
-    	percent: 0.0, x: 0.0, y: 0.05
+    	percent: 0.0, x: 0.0, y: 0.03
   	},
     end: {
-      percent: 0.5, x: 1, y: 0.17
+      percent: 0.5, x: 1, y: 0.03
     }
   }
 ]
