@@ -43,15 +43,15 @@ html {
 @keyframes pulse {
   0% {
     opacity: 1;
-    transform: none;
+	transform: translateY(-30px);
   }
   50% {
     opacity: 1;
-    transform: translateY(-30px);
+    transform: none;
   }
   100% {
     opacity: 1;
-    transform: none;
+	transform: none;
   }
 }
 
@@ -109,10 +109,14 @@ a:active {
 }
 
 .vihmo {
+	
+	-webkit-filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.3));
 
 }
 
 .media {
+	
+	-webkit-filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.3));
 
 }
 
@@ -120,7 +124,7 @@ a:active {
 
 .text {
 	position: absolute;
-	text-align: center;
+	display:inline-block;
 	background-color: rgba(0,0,0,0.9);
 	overflow:hidden;
 	overscroll-behavior-y: none;
@@ -128,6 +132,13 @@ a:active {
 	left: 0%;
 	width: 100%;
 }
+
+.text-p {
+	top: 100vh;
+	width: 75%;
+	margin-left: 12%;
+}
+
 
 .copyright {
 	position: relative;
@@ -146,7 +157,7 @@ a:active {
 
 .alas img {
   animation: fade-slide-up 0.5s 0.5s ease-out forwards,
-             pulse 1s 3s ease-out infinite;
+             pulse 3s 2s ease-out infinite;
   opacity: 0;
 }
 
@@ -170,6 +181,7 @@ h2 {
 }
 
 h3 {
+	text-align: center;
 	font-family: 'Raleway', sans-serif;
 	font-size: 20;
 	line-height: 1;
@@ -179,6 +191,8 @@ h3 {
 }
 
 p {
+	text-align: left;
+	left: 50%;
 	font-family: 'Raleway', sans-serif;
 	font-size: 30px;
 	line-height: 1;
