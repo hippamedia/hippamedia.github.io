@@ -123,6 +123,7 @@ a:active {
 	text-align: right;
 	background-color: rgba(0,0,0,0.5);
 	overflow:hidden;
+	overscroll-behavior:none;
 	top: 100vh;
 	width: 100%;
 }
