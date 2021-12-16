@@ -11,7 +11,7 @@ var _positions = [
   {
     name: 'vihmo', 
    	start: {
-    	percent: 0.0, x: 0.0, y: 0.08
+    	percent: 0.0, x: 0.0, y: 0.03
   	},
     end: {
       percent: 0.5, x: 0.0, y: 0.28
@@ -20,10 +20,10 @@ var _positions = [
   {
     name: 'media', 
    	start: {
-    	percent: 0.0, x: 0.0, y: 0.13
+    	percent: 0.0, x: 0.0, y: 0.05
   	},
     end: {
-      percent: 0.5, x: 1, y: 0.13
+      percent: 0.5, x: 1, y: 0.17
     }
   }
 ]
