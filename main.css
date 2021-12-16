@@ -15,7 +15,6 @@ html {
 	scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
 	background-color: rgba(0, 0, 0, 0.2);
-	position: absolute;
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -29,6 +28,32 @@ html {
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
     background: transparent;  /* Optional: just make scrollbar invisible */
+}
+
+@keyframes fade-slide-up {
+  0% {
+    opacity: 0;
+    transform: translateY(4rem);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+    transform: none;
+  }
+  50% {
+    opacity: .8;
+    transform: translateY(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: none;
+  }
 }
 
 .taustavideo {
@@ -83,24 +108,70 @@ a:active {
 	text-decoration: none;
 }
 
+.liike {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
 
 .otsikko {
-	position: fixed;
-	text-align: center;
+	position: absolute;
+	text-align: left;
+	z-index: 1;
+	display: block;
+}
+
+.container {
+  width: 100%;
+  height: 1000px;
+}
+
+.square {
+  position: absolute;
+}
+
+.square-1 {
+
+  top: 200px;
+}
+
+.square-2 {
+  left: 400px;
+  top: 400px;
 }
 
 .text {
-	position: relative;
+	position: absolute;
 	text-align: right;
 	background-color: rgba(0,0,0,0.7);
 	overflow:auto;
 	top: 100vh;
+	width: 100%;
+	border-top-color: #FFFFFF;
+	border-style: solid;
+	border-top: 10px;
 }
 
 .copyright {
 	position: relative;
 	top: 100%;
 	text-align: center;
+}
+
+.alas {
+  position: absolute;
+    bottom: 2vh;
+    left: 0;
+    right: 0;
+	text-align: center;
+	z-index: 10;
+}
+
+.alas img {
+  animation: fade-slide-up 0.5s 0.5s ease-out forwards,
+             pulse 1s 3s ease-out infinite;
+  opacity: 0;
 }
 
 
