@@ -57,7 +57,7 @@ html {
 }
 
 .taustavideo {
-	display: grid;
+	display: fixed;
 	justify-items: center;
 	align-items: center;
 	position: fixed;
