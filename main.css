@@ -9,7 +9,6 @@
 
 body,
 html {
-	overscroll-behavior-y: none;
 	max-width: 100%;
 	scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
@@ -110,13 +109,13 @@ a:active {
 
 .vihmo {
 	
-	-webkit-filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.3));
+	-webkit-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
 
 }
 
 .media {
 	
-	-webkit-filter: drop-shadow(5px 5px 15px rgba(0,0,0,0.3));
+	-webkit-filter: drop-shadow(5px 5px 10px rgba(0,0,0,0.3));
 
 }
 
@@ -127,7 +126,6 @@ a:active {
 	display:inline-block;
 	background-color: rgba(0,0,0,0.9);
 	overflow:hidden;
-	overscroll-behavior-y: none;
 	top: 100vh;
 	left: 0%;
 	width: 100%;
