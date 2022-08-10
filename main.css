@@ -86,7 +86,8 @@ html {
 
 
 ::selection {
-	background: #000000;
+	background: #191919;
+	color: #e6e6e6;
 }
 
 a {
