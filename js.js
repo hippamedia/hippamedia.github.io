@@ -10,6 +10,6 @@ window.addEventListener('scroll', function() {
   var scrollTop = window.pageYOffset || window.scrollTop;
   var scrollPercent = scrollTop/scrollArea || 0;
 
-  square1.style.left = scrollPercent*window.innerWidth*0.3 + '0px';
+  square1.style.left = scrollPercent*window.innerWidth*0.45 + '0px';
   square2.style.left = scrollPercent*-window.innerWidth*0.5 + '0px';
 });
