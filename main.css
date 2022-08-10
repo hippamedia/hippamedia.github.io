@@ -120,12 +120,14 @@ a:active {
   width: 60%;
   margin-left: 20%;
   top: 33%;
+  opacity: 1;
 }
 
 .square-2 {
   width: 60%;
   margin-left: 20%;
   top: 33%;
+  opacity: 1;
 }
 
 .logo {
