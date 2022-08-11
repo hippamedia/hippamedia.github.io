@@ -15,7 +15,7 @@ window.addEventListener('scroll', function() {
   square2.style.left = scrollPercent*-window.innerWidth*0.5 + '0px';
 });
 
-var header = document.getElementById('container');
+var header = document.querySelectorAll("#alas, #myCircle2, #myCircle3, #myCircle4");
 
 function fadeOutOnScroll(element) {
   if (!element) {
