@@ -23,7 +23,7 @@ html {
 
 ::-webkit-scrollbar {
     width: 0;  /* Remove scrollbar space */
-    background: transparent;  /* Optional: just make scrollbar invisible */
+    background-color: rgba(240, 240, 240, 1.0);  /* Optional: just make scrollbar invisible */
 }
 
 ::selection {
