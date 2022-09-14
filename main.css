@@ -111,6 +111,7 @@ a:active {
 letter-spacing: 0.6rem;
   font-family: 'Roboto', sans-serif;
   font-size: 4vw;
+  font-weight: 600;
 
 }
 
@@ -126,7 +127,7 @@ letter-spacing: 0.5rem;
 
 h1{
 	line-height: 1.4;
-	font-weight: 600;
+	font-weight: 550;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.4rem;
@@ -144,4 +145,118 @@ letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 3vw;
   margin: 10%;
+}
+
+@media only screen and (min-width: 2001px) {
+	
+	.intro{
+	background-color: rgba(240, 240, 240, 1.0);
+	position: absolute;
+	top: 0%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: 90vh;
+}
+
+.content{
+	background-color: rgba(240, 240, 240, 1.0);
+	position: absolute;
+	top: 200vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: 100vh;
+}
+
+	.otsikko {
+	color: rgba(57, 204, 204, 1.0);
+	text-align: left;
+letter-spacing: 0.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  font-weight: 600;
+
+}
+
+.tehoste {
+	color: rgba(44, 47, 50, 1.0);
+	font-weight: bold;
+text-align: left;
+letter-spacing: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+
+}
+	
+h1{
+	line-height: 1.4;
+	font-weight: 550;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 80px;
+  margin-left: calc(50% - 800px);
+  margin-right: calc(50% - 800px);
+}
+
+h2{
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 60px;
+  margin-left: calc(50% - 800px);
+  margin-right: calc(50% - 800px);
+}
+
+}
+
+@media only screen and (max-width: 1001px) {
+	
+	.otsikko {
+	color: rgba(57, 204, 204, 1.0);
+	text-align: left;
+letter-spacing: 0.6rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+
+}
+
+.tehoste {
+	color: rgba(44, 47, 50, 1.0);
+	font-weight: bold;
+text-align: left;
+letter-spacing: 0.5rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+
+}
+	
+h1{
+	line-height: 1.4;
+	font-weight: 550;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 40px;
+  margin: 10%;
+}
+
+h2{
+	line-height: 1.5;
+	font-weight: 400;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 30px;
+  margin: 10%;
+}
+
 }
