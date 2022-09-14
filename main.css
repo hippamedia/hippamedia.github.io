@@ -58,7 +58,7 @@ a:active {
 	width: 100%;
 	height: 100%;
 	overflow: hidden;
-	z-index: -1;
+	z-index: 0;
 }
 
 .taustavideo video {
@@ -70,7 +70,7 @@ a:active {
 	min-height: 100%;
 	transform: translateX(-50%) translateY(-50%);
 	opacity: 1;
-	z-index: -1;
+	z-index: 0;
 }
 
 .grain {
@@ -91,7 +91,7 @@ a:active {
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: 90vh;
+  height: 80vh;
 }
 
 .content{
@@ -133,7 +133,9 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 4vw;
-  margin: 10%;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h2{
@@ -144,7 +146,9 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 3vw;
-  margin: 10%;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 @media only screen and (min-width: 2001px) {
@@ -156,7 +160,7 @@ letter-spacing: 0.4rem;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: 90vh;
+  height: 80vh;
 }
 
 .content{
@@ -169,7 +173,7 @@ letter-spacing: 0.4rem;
   height: 100vh;
 }
 
-	.otsikko {
+.otsikko {
 	color: rgba(57, 204, 204, 1.0);
 	text-align: left;
 letter-spacing: 0.6rem;
@@ -245,7 +249,9 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
-  margin: 10%;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h2{
@@ -256,7 +262,9 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
-  margin: 10%;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 }
