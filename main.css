@@ -224,7 +224,7 @@ letter-spacing: 0.4rem;
 	.otsikko {
 	color: rgba(57, 204, 204, 1.0);
 	text-align: left;
-letter-spacing: 0.6rem;
+letter-spacing: 0.3rem;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   font-weight: 600;
@@ -235,7 +235,7 @@ letter-spacing: 0.6rem;
 	color: rgba(44, 47, 50, 1.0);
 	font-weight: bold;
 text-align: left;
-letter-spacing: 0.5rem;
+letter-spacing: 0.3rem;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
 
@@ -246,7 +246,7 @@ h1{
 	font-weight: 550;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
-letter-spacing: 0.4rem;
+letter-spacing: 0.2rem;
   font-family: 'Roboto', sans-serif;
   font-size: 40px;
   margin-top: 100px;
@@ -259,7 +259,7 @@ h2{
 	font-weight: 400;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
-letter-spacing: 0.4rem;
+letter-spacing: 0.2rem;
   font-family: 'Roboto', sans-serif;
   font-size: 30px;
   margin-top: 100px;
