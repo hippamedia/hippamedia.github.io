@@ -13,7 +13,7 @@ html {
 	max-width: 100%;
 	scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* Internet Explorer 10+ */
-	background-color: rgba(240, 240, 240, 1.0);
+	background-color: rgba(0, 0, 0, 1.0);
 	height: 100%;
 	width: 100%;
 	padding: 0;
@@ -84,7 +84,7 @@ a:active {
 	z-index: -1;
 	}
 
-.intro{
+#intro{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
 	top: 0%;
@@ -94,10 +94,24 @@ a:active {
   height: 80vh;
 }
 
+.intro-shadow {
+box-shadow: 0px 0px 300px 0px rgba(0, 0, 0, 0.7); 
+}
+
 .content{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
 	top: 200vh;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: 80vh;
+}
+
+.content2{
+	background-color: rgba(240, 240, 240, 1.0);
+	position: absolute;
+	top: 360vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -133,7 +147,7 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
   font-size: 4vw;
-  margin-top: 100px;
+  margin-top: 150px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -224,9 +238,9 @@ letter-spacing: 0.4rem;
 	.otsikko {
 	color: rgba(57, 204, 204, 1.0);
 	text-align: left;
-letter-spacing: 0.3rem;
+letter-spacing: 0.4rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
+  font-size: 35px;
   font-weight: 600;
 
 }
@@ -242,21 +256,21 @@ letter-spacing: 0.3rem;
 }
 	
 h1{
-	line-height: 1.4;
-	font-weight: 550;
+	line-height: 1.5;
+	font-weight: 600;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.2rem;
   font-family: 'Roboto', sans-serif;
-  font-size: 30px;
-  margin-top: 100px;
+  font-size: 35px;
+  margin-top: 150px;
   margin-left: 10%;
   margin-right: 10%;
 }
 
 h2{
 	line-height: 1.5;
-	font-weight: 400;
+	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.2rem;
