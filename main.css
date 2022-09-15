@@ -91,11 +91,11 @@ a:active {
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: 80vh;
+  height: auto;
 }
 
 .intro-shadow {
-box-shadow: 0px 0px 300px 0px rgba(0, 0, 0, 0.7); 
+box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7); 
 }
 
 .content{
@@ -120,7 +120,9 @@ box-shadow: 0px 0px 300px 0px rgba(0, 0, 0, 0.7);
 
 
 .otsikko {
-	color: rgba(57, 204, 204, 1.0);
+	line-height: 2;
+	background-color: rgba(44, 47, 50, 1.0);
+	color: rgba(240, 240, 240, 1.0);
 	text-align: left;
 letter-spacing: 0.6rem;
   font-family: 'Oswald', sans-serif;
@@ -131,10 +133,10 @@ letter-spacing: 0.6rem;
 
 .tehoste {
 	color: rgba(44, 47, 50, 1.0);
-	font-weight: bold;
+	font-weight: 600;
 text-align: left;
 letter-spacing: 0.5rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3vw;
 
 }
@@ -157,6 +159,7 @@ letter-spacing: 0.4rem;
   font-family: 'Oswald', sans-serif;
   font-size: 4vw;
   margin-top: 150px;
+  margin-bottom: 200px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -189,15 +192,6 @@ letter-spacing: 0.1rem;
 
 @media only screen and (min-width: 2001px) {
 	
-	.intro{
-	background-color: rgba(240, 240, 240, 1.0);
-	position: absolute;
-	top: 0%;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 100%;
-  height: 80vh;
-}
 
 .content{
 	background-color: rgba(240, 240, 240, 1.0);
@@ -206,11 +200,13 @@ letter-spacing: 0.1rem;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: 100vh;
+  height: auto;
 }
 
 .otsikko {
-	color: rgba(57, 204, 204, 1.0);
+	line-height: 2;
+		background-color: rgba(44, 47, 50, 1.0);
+	color: rgba(240, 240, 240, 1.0);
 	text-align: left;
 letter-spacing: 0.6rem;
   font-family: 'Oswald', sans-serif;
@@ -221,10 +217,10 @@ letter-spacing: 0.6rem;
 
 .tehoste {
 	color: rgba(44, 47, 50, 1.0);
-	font-weight: bold;
+	font-weight: 600;
 text-align: left;
 letter-spacing: 0.5rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
 
 }
@@ -271,7 +267,8 @@ letter-spacing: 0.1rem;
 	
 	.otsikko {
 	line-height: 2;
-	color: rgba(57, 204, 204, 1.0);
+		background-color: rgba(44, 47, 50, 1.0);
+	color: rgba(240, 240, 240, 1.0);
 	text-align: left;
 letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
@@ -282,10 +279,10 @@ letter-spacing: 0.1rem;
 
 .tehoste {
 	color: rgba(44, 47, 50, 1.0);
-	font-weight: bold;
+	font-weight: 600;
 text-align: left;
 letter-spacing: 0.3rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
 
 }
