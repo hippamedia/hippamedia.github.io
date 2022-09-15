@@ -101,7 +101,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 .content{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
-	top: 200vh;
+	top: 130vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -111,7 +111,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 .content2{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
-	top: 360vh;
+	top: 250vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -124,7 +124,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 	background-color: rgba(44, 47, 50, 1.0);
 	color: rgba(240, 240, 240, 1.0);
 	text-align: left;
-letter-spacing: 0.6rem;
+letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 4vw;
   font-weight: 600;
@@ -135,7 +135,7 @@ letter-spacing: 0.6rem;
 	color: rgba(44, 47, 50, 1.0);
 	font-weight: 600;
 text-align: left;
-letter-spacing: 0.5rem;
+letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 3vw;
 
@@ -170,7 +170,7 @@ h2{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.4rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 3vw;
   margin-top: 100px;
   margin-bottom: 100px;
@@ -208,7 +208,7 @@ letter-spacing: 0.1rem;
 		background-color: rgba(44, 47, 50, 1.0);
 	color: rgba(240, 240, 240, 1.0);
 	text-align: left;
-letter-spacing: 0.6rem;
+letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 80px;
   font-weight: 800;
@@ -219,7 +219,7 @@ letter-spacing: 0.6rem;
 	color: rgba(44, 47, 50, 1.0);
 	font-weight: 600;
 text-align: left;
-letter-spacing: 0.5rem;
+letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
 
@@ -243,7 +243,7 @@ h2{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.4rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 60px;
   margin-left: calc(50% - 800px);
   margin-right: calc(50% - 800px);
@@ -281,7 +281,7 @@ letter-spacing: 0.1rem;
 	color: rgba(44, 47, 50, 1.0);
 	font-weight: 600;
 text-align: left;
-letter-spacing: 0.3rem;
+letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 25px;
 
@@ -306,7 +306,7 @@ h2{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: left;
 letter-spacing: 0.2rem;
-  font-family: 'Noto Serif', serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 25px;
   margin-top: 100px;
   margin-left: 10%;
@@ -322,7 +322,7 @@ text-align: center;
 letter-spacing: 0.1rem;
   font-family: 'Oswald', sans-serif;
   font-size: 15px;
-  padding: 20px;
+  padding: 15px;
 }
 
 }
