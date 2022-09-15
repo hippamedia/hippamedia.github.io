@@ -91,7 +91,7 @@ a:active {
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: auto;
+  height: 100vh;
 }
 
 .intro-shadow {
@@ -101,7 +101,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 .content{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
-	top: 130vh;
+	top: 175vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -111,7 +111,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 .content2{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
-	top: 250vh;
+	top: 300vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -159,7 +159,7 @@ letter-spacing: 0.4rem;
   font-family: 'Oswald', sans-serif;
   font-size: 4vw;
   margin-top: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
   margin-left: 10%;
   margin-right: 10%;
 }
