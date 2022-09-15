@@ -84,7 +84,7 @@ a:active {
 	z-index: -1;
 	}
 
-#intro{
+#intro {
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
 	top: 0%;
@@ -92,11 +92,21 @@ a:active {
   transform: translate(-50%, 0%);
   width: 100%;
   height: 100vh;
+  box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
 }
 
-.intro-shadow {
-box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7); 
+.asiakkaat {
+	opacity: 0.8;
+	text-align: center;
+	width: 100%;
 }
+
+img {
+	margin-top: 0px;
+	margin-bottom: 100px;
+	width: 50%;
+}
+
 
 .content{
 	background-color: rgba(44, 47, 50, 1.0);
@@ -106,6 +116,7 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
   transform: translate(-50%, 0%);
   width: 100%;
   height: auto;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.7);
 }
 
 .content2{
@@ -115,7 +126,8 @@ box-shadow: 0px 0px 200px 100px rgba(0, 0, 0, 0.7);
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: 100vh;
+  height: auto;
+  box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.7);
 }
 
 
@@ -169,6 +181,19 @@ letter-spacing: 0.4rem;
   font-size: 3vw;
   margin-top: 300px;
   margin-bottom: 300px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h4{
+	line-height: 1.3;
+	font-weight: 500;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.2rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -230,13 +255,26 @@ letter-spacing: 0.4rem;
 h2{
 	line-height: 1.5;
 	font-weight: 400;
-	color: rgba(120, 120, 120, 1.0); 
+	color: rgba(169, 169, 169, 1.0); 
 text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Oswald', sans-serif;
   font-size: 60px;
   margin-left: calc(50% - 800px);
   margin-right: calc(50% - 800px);
+}
+
+h4{
+	line-height: 1.3;
+	font-weight: 500;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: left;
+letter-spacing: 0.2rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h3{
@@ -288,12 +326,39 @@ letter-spacing: 0.2rem;
 h2{
 	line-height: 1.3;
 	font-weight: 500;
-	color: rgba(120, 120, 120, 1.0); 
+	color: rgba(169, 169, 169, 1.0); 
 text-align: left;
 letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h4{
+	line-height: 1.3;
+	font-weight: 500;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: center;
+letter-spacing: 0.2rem;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h5{
+	line-height: 1.3;
+	font-weight: 600;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: center;
+letter-spacing: 0.2rem;
+  font-family: 'Noto', serif;
+  font-size: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -373,7 +438,7 @@ top:0px;
   height: 4px;
   margin-bottom: 5px;
   position: relative;
-  background-color: rgba(44, 47, 50, 1.0);
+  background-color: rgba(240, 240, 240, 1.0);
   border-radius: 3px;
   
   z-index: 2;
@@ -430,7 +495,7 @@ top:0px;
 #menu
 {
   	position: fixed;
-	top:0;
+	top:0px;
 	right:0;
 	z-index: 1;
 	width: 100vw;
@@ -444,7 +509,7 @@ top:0px;
   transform-origin: 0% 0%;
   transform: translate(100%, 0);
   
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  transition: transform 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
 }
 
 #menu li
