@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&family=Oswald&family=Roboto&display=swap');
 * {
   margin: 0;   
   padding: 0;
@@ -102,9 +102,12 @@ a:active {
 }
 
 img {
+	display:float;
 	margin-top: 0px;
+	margin-left: 100px;
+	margin-right: 100px;
 	margin-bottom: 100px;
-	width: 50%;
+	width: 250px;
 }
 
 
@@ -115,14 +118,14 @@ img {
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
-  height: auto;
+  height: 80vh;
   box-shadow: 0px 0px 50px 0px rgba(0, 0, 0, 0.7);
 }
 
 .content2{
 	background-color: rgba(240, 240, 240, 1.0);
 	position: absolute;
-	top: 300vh;
+	top: 330vh;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -148,14 +151,32 @@ letter-spacing: 0.1rem;
 
 }
 
-.contact {
+.contact1 {
 	position: fixed;
 	top:0;
-	right:0;
+	left:0;
 	z-index: 2;
-	width:auto;
+	width:33%;
 	height:2vh;
 }
+.contact2 {
+	position: fixed;
+	top:0;
+	left:33%;
+	z-index: 2;
+	width:33%;
+	height:2vh;
+}
+
+.contact3 {
+	position: fixed;
+	top:0;
+	left:66%;
+	z-index: 2;
+	width:34%;
+	height:2vh;
+}
+
 
 h1{
 	line-height: 1.4;
@@ -179,7 +200,7 @@ text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'Oswald', sans-serif;
   font-size: 3vw;
-  margin-top: 300px;
+  margin-top: 5%;
   margin-bottom: 300px;
   margin-left: 10%;
   margin-right: 10%;
@@ -189,11 +210,25 @@ h4{
 	line-height: 1.3;
 	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
-text-align: left;
+text-align: center;
 letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h5{
+	line-height: 1.3;
+	font-weight: 500;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: center;
+letter-spacing: 0.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -268,11 +303,25 @@ h4{
 	line-height: 1.3;
 	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
-text-align: left;
+text-align: center;
 letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
   margin-top: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h5{
+	line-height: 1.3;
+	font-weight: 500;
+	color: rgba(44, 47, 50, 1.0); 
+text-align: center;
+letter-spacing: 0.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  margin-top: 100px;
+  margin-bottom: 50px;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -309,6 +358,35 @@ letter-spacing: 0.1rem;
 	color: rgba(240, 240, 240, 1.0);
 
 }
+
+.contact {
+	position: fixed;
+	top:0;
+	left:0;
+	z-index: 2;
+	width:33%;
+	height:2vh;
+}
+.contact2 {
+	position: fixed;
+	top:0;
+	left:33%;
+	z-index: 2;
+	width:33%;
+	height:2vh;
+}
+
+.contact1 {
+	display:none;
+}
+
+.contact2 {
+	display:none;
+}
+
+.contact3 {
+	display:none;
+}
 	
 h1{
 	line-height: 1.3;
@@ -331,7 +409,7 @@ text-align: left;
 letter-spacing: 0.2rem;
   font-family: 'Oswald', sans-serif;
   font-size: 30px;
-  margin-top: 100px;
+  margin-top: 10%;
   margin-left: 10%;
   margin-right: 10%;
 }
@@ -351,11 +429,11 @@ letter-spacing: 0.2rem;
 
 h5{
 	line-height: 1.3;
-	font-weight: 600;
+	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
 text-align: center;
 letter-spacing: 0.2rem;
-  font-family: 'Noto', serif;
+  font-family: 'Roboto', sans-serif;
   font-size: 15px;
   margin-top: 100px;
   margin-bottom: 50px;
