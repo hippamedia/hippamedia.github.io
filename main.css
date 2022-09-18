@@ -122,7 +122,8 @@ img {
 }
 
 .content2{
-	background-color: rgba(240, 240, 240, 1.0);
+	background: rgb(240,240,240);
+	background: linear-gradient(180deg, rgba(240,240,240,1) 50%, rgba(180,180,180,1) 100%);
 	position: absolute;
 	top: 330vh;
   left: 50%;
