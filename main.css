@@ -232,15 +232,21 @@ top:0px;
 
 #menu li
 {
+	    position: relative;
+    top: calc(50% - 245px);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 	line-height: 1.0;
-	font-weight: 600;
+	font-weight: 800;
 	color: rgba(240, 240, 240, 1.0);
 	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
-letter-spacing: 0.2rem;
-  font-family: 'Oswald', sans-serif;
-  font-size: 30px;
+letter-spacing: 0.5rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 4.5vw;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 /*
@@ -529,7 +535,7 @@ h1{
 text-align: left;
 letter-spacing: 0.4rem;
   font-family: 'DM Serif Display', serif;
-  font-size: 4vw;
+  font-size: 4.5vw;
   margin-top: 150px;
   margin-bottom: 150px;
   margin-left: 10%;
@@ -569,7 +575,7 @@ h5{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: center;
 letter-spacing: 0.2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -584,7 +590,7 @@ h3{
 	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
 letter-spacing: 0.1rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 2.5vw;
   padding: 20px;
 }
@@ -687,7 +693,7 @@ h5{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: center;
 letter-spacing: 0.2rem;
-  font-family: 'Roboto', sans-serif;
+ font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -702,7 +708,7 @@ h3{
 	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
 letter-spacing: 0.1rem;
- font-family: 'Oswald', sans-serif;
+ font-family: 'DM Sans', sans-serif;
   font-size: 50px;
   padding: 20px;
 }
@@ -737,6 +743,16 @@ letter-spacing: 0.1rem;
 
 }
 
+#menu li
+{
+
+	line-height: 1.0;
+	font-weight: 800;
+letter-spacing: 0.3rem;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 45px;
+}
+
 .tehoste {
 	color: rgba(240, 240, 240, 1.0);
 
@@ -768,7 +784,7 @@ h1{
 text-align: left;
 letter-spacing: 0.2rem;
 font-family: 'DM Serif Display', serif;
-  font-size: 35px;
+  font-size: 40px;
   margin-top: 150px;
   margin-left: 10%;
   margin-right: 10%;
@@ -806,7 +822,7 @@ h5{
 	color: rgba(44, 47, 50, 1.0); 
 text-align: center;
 letter-spacing: 0.2rem;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   margin-top: 100px;
   margin-bottom: 50px;
@@ -821,7 +837,7 @@ h3{
 	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
 letter-spacing: 0.1rem;
-  font-family: 'Oswald', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   padding: 15px;
 }
