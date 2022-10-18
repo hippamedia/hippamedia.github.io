@@ -232,8 +232,7 @@ top:0px;
 #menu li
 {
 	position: relative;
-	display: block;
-top: calc(50vh - 265px);
+top: 50%;
 	line-height: 1.0;
 	font-weight: 800;
 	color: rgba(240, 240, 240, 1.0);
