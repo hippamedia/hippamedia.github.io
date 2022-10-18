@@ -376,7 +376,7 @@ letter-spacing: 0.5rem;
 
 #linkit {
 position: relative;
-  top: 40%;
+  top: 45%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -756,7 +756,7 @@ letter-spacing: 0.1rem;
 	font-weight: 800;
 letter-spacing: 0.3rem;
   font-family: 'DM Sans', sans-serif;
-  font-size: 45px;
+  font-size: 40px;
 }
 
 .tehoste {
