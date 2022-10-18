@@ -236,7 +236,7 @@ top:0px;
 #menu li
 {
 	
-	line-height: 1.0;
+	line-height: 2.0;
 	font-weight: 800;
 	color: rgba(240, 240, 240, 1.0);
 	background-color: rgba(255, 59, 63, 1.0); 
@@ -244,8 +244,7 @@ top:0px;
 letter-spacing: 0.5rem;
   font-family: 'DM Sans', sans-serif;
   font-size: 4.5vw;
-  margin-top: 100px;
-  margin-bottom: 100px;
+
 }
 
 /*
@@ -376,8 +375,8 @@ letter-spacing: 0.5rem;
 }
 
 #linkit {
-	position: relative;
-  top: calc(50vh - 100px);
+position: relative;
+  top: 50%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
@@ -753,7 +752,7 @@ letter-spacing: 0.1rem;
 #menu li
 {
 
-	line-height: 1.0;
+	line-height: 2.0;
 	font-weight: 800;
 letter-spacing: 0.3rem;
   font-family: 'DM Sans', sans-serif;
