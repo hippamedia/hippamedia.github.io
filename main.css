@@ -409,6 +409,7 @@ position: relative;
 	z-index: 0;
 }
 
+
 .grain {
     position: fixed;
     top: 0;
@@ -477,8 +478,6 @@ img.yhteistyo {
 
 img.ikonit {
 	margin-top: 50px;
-	margin-left: 10%;
-	margin-right: 10%;
 	margin-bottom: 0px;
 	width: 150px;
 }
@@ -491,33 +490,87 @@ img.ikonit {
 	width: 80%;
 }
 
-.content{
-	background-color: rgba(44, 47, 50, 0);
+#all{
 	position: absolute;
 	top: 100vh;
+	left: 50%;
+  transform: translate(-50%, 0%);
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+.content{
+	background-color: rgba(44, 47, 50, 0);
+	position: relative;
+	top: 10px;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
   height: auto;
+  text-align: center;
+  
 
 }
 
-.content2{
+#content2{
 	background-color: rgba(255, 59, 63, 0);
-	position: absolute;
-	top: 250vh;
-left: 50%;
+	position: relative;
+	top: 10px;
+	left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
   height: auto;
-text-align: center;
+
+ padding-left: 50px;
+  padding-right: 50px;
+ text-align: center;
+
+}
+.markkinointivideot{
+	width: 400px;
+display: inline-block;
+  vertical-align: top;
+	top: 10px;
+	 text-align: left;
 
 }
 
+.some{
+	width: 400px;
+display: inline-block;
+  vertical-align: top;
+	top: 10px;
+	text-align: left;
+
+}
+
+.dokumentit{
+	width: 400px;
+display: inline-block;
+  vertical-align: top;
+	top: 10px;
+	text-align: left;
+
+}
+
+
+.ilmakuvaus{
+	width: 400px;
+display: inline-block;
+  vertical-align: top;
+	top: 10px;
+	text-align: left;
+
+}
+
+
+
+
 .content3{
 	background: rgb(240,240,240);
-	position: absolute;
-top: 350vh;
+	position: relative;
+	top: 200px;
   left: 50%;
   transform: translate(-50%, 0%);
   width: 100%;
@@ -613,31 +666,32 @@ letter-spacing: 0.1rem;
 }
 
 h7{
-	line-height: 1.4;
+	line-height: 1.3;
 	font-weight: 600;
+	color: rgba(240, 240, 240, 1.0);  
+text-align: left;
+letter-spacing: 0.2rem;
+font-family: 'DM Serif Display', serif;
+  font-size: 35px;
+  margin-top: 10px;
+
+}
+
+h8{
+	line-height: 1.3;
+	font-weight: 500;
 	color: rgba(240, 240, 240, 1.0); 
 text-align: left;
-letter-spacing: 0.4rem;
-  font-family: 'DM Serif Display', serif;
-  font-size: 4vw;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 10%;
-  margin-right: 10%;
+letter-spacing: 0.2rem;
+ font-family: 'DM Sans', sans-serif;
+  font-size: 25px;
+  margin-top: 500px;
+
 }
 
 @media only screen and (min-width: 2001px) {
 	
 
-.content{
-	background-color: rgba(44, 47, 50, 1.0);
-	position: absolute;
-	top: 100vh;
-  left: 50%;
-  transform: translate(-50%, 0%);
-  width: 100%;
-  height: auto;
-}
 
 .otsikko {
 	line-height: 2;
@@ -871,30 +925,6 @@ letter-spacing: 0.1rem;
   font-family: 'DM Sans', sans-serif;
   font-size: 15px;
   padding: 15px;
-}
-
-h7{
-	line-height: 1.3;
-	font-weight: 600;
-	color: rgba(240, 240, 240, 1.0);  
-text-align: center;
-letter-spacing: 0.2rem;
-font-family: 'DM Serif Display', serif;
-  font-size: 35px;
-  margin-top: 10px;
-
-}
-
-h8{
-	line-height: 1.3;
-	font-weight: 500;
-	color: rgba(240, 240, 240, 1.0); 
-text-align: center;
-letter-spacing: 0.2rem;
- font-family: 'DM Sans', sans-serif;
-  font-size: 25px;
-  margin-top: 500px;
-
 }
 
 
