@@ -522,50 +522,49 @@ img.ikonit {
   width: 100%;
   height: auto;
  text-align: center;
- margin: 0;
 
 }
 .markkinointivideot{
-	width: 380px;
+	width: 200px;
 display: inline-block;
   vertical-align: top;
 	 text-align: left;
-		 margin-left: 10%;
-		 margin-right: 5%;
+	 margin-left: 6%;
+	 margin-right: 6%;
 		 margin-top: 100px;
 
 }
 
 .some{
-	width: 380px;
+	width: 200px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 10%;
-		 margin-right: 5%;
+		 margin-left: 6%;
+	 margin-right: 6%;
 		 margin-top: 100px;
 
 }
 
 .dokumentit{
-	width: 380px;
+	width: 200px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 10%;
-		 margin-right: 5%;
+		 margin-left: 6%;
+	 margin-right: 6%;
 		 margin-top: 100px;
 
 }
 
 
 .ilmakuvaus{
-	width: 380px;
+	width: 200px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 10%;
-		 margin-right: 5%;
+		 margin-left: 6%;
+	 margin-right: 6%;
 		 margin-top: 100px;
 		 
 }
@@ -671,7 +670,7 @@ letter-spacing: 0.1rem;
   padding: 20px;
 }
 
-h7{
+h6{
 	line-height: 1.3;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);  
@@ -680,6 +679,7 @@ letter-spacing: 0.2rem;
 font-family: 'DM Serif Display', serif;
   font-size: 35px;
   margin-top: 10px;
+
 
 }
 
