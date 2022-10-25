@@ -525,46 +525,46 @@ img.ikonit {
 
 }
 .markkinointivideot{
-	width: 400px;
+	width: 380px;
 display: inline-block;
   vertical-align: top;
 	 text-align: left;
-	 margin-left: 6%;
-	 margin-right: 6%;
+	 	margin-left: 10px;
+	margin-right: 10px;
 		 margin-top: 100px;
 
 }
 
 .some{
-	width: 400px;
+	width: 380px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 6%;
-	 margin-right: 6%;
+		margin-left: 10px;
+	margin-right: 10px;
 		 margin-top: 100px;
 
 }
 
 .dokumentit{
-	width: 400px;
+	width: 380px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 6%;
-	 margin-right: 6%;
+		margin-left: 10px;
+	margin-right: 10px;
 		 margin-top: 100px;
 
 }
 
 
 .ilmakuvaus{
-	width: 400px;
+	width: 380px;
 display: inline-block;
   vertical-align: top;
 	text-align: left;
-		 margin-left: 6%;
-	 margin-right: 6%;
+	margin-left: 10px;
+	margin-right: 10px;
 		 margin-top: 100px;
 		 
 }
