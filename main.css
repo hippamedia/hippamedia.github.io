@@ -521,9 +521,6 @@ img.ikonit {
   transform: translate(-50%, 0%);
   width: 100%;
   height: auto;
-
- padding-left: 50px;
-  padding-right: 50px;
  text-align: center;
 
 }
@@ -531,8 +528,10 @@ img.ikonit {
 	width: 400px;
 display: inline-block;
   vertical-align: top;
-	top: 10px;
 	 text-align: left;
+		 margin-left: 10%;
+		 margin-right: 10%;
+		 margin-top: 100px;
 
 }
 
@@ -540,8 +539,10 @@ display: inline-block;
 	width: 400px;
 display: inline-block;
   vertical-align: top;
-	top: 10px;
 	text-align: left;
+		 margin-left: 10%;
+		 margin-right: 10%;
+		 margin-top: 100px;
 
 }
 
@@ -549,8 +550,10 @@ display: inline-block;
 	width: 400px;
 display: inline-block;
   vertical-align: top;
-	top: 10px;
 	text-align: left;
+		 margin-left: 10%;
+		 margin-right: 10%;
+		 margin-top: 100px;
 
 }
 
@@ -559,9 +562,11 @@ display: inline-block;
 	width: 400px;
 display: inline-block;
   vertical-align: top;
-	top: 10px;
 	text-align: left;
-
+		 margin-left: 10%;
+		 margin-right: 10%;
+		 margin-top: 100px;
+		 
 }
 
 
