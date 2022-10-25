@@ -522,6 +522,7 @@ img.ikonit {
   width: 100%;
   height: auto;
  text-align: center;
+ margin: 0;
 
 }
 .markkinointivideot{
@@ -530,7 +531,7 @@ display: inline-block;
   vertical-align: top;
 	 text-align: left;
 		 margin-left: 10%;
-		 margin-right: 10%;
+		 margin-right: 5%;
 		 margin-top: 100px;
 
 }
@@ -541,7 +542,7 @@ display: inline-block;
   vertical-align: top;
 	text-align: left;
 		 margin-left: 10%;
-		 margin-right: 10%;
+		 margin-right: 5%;
 		 margin-top: 100px;
 
 }
@@ -552,7 +553,7 @@ display: inline-block;
   vertical-align: top;
 	text-align: left;
 		 margin-left: 10%;
-		 margin-right: 10%;
+		 margin-right: 5%;
 		 margin-top: 100px;
 
 }
@@ -564,7 +565,7 @@ display: inline-block;
   vertical-align: top;
 	text-align: left;
 		 margin-left: 10%;
-		 margin-right: 10%;
+		 margin-right: 5%;
 		 margin-top: 100px;
 		 
 }
