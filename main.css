@@ -260,7 +260,7 @@ a:active {
 .menu-hide.show{
   left: 0px;
   background-color: rgba(255, 59, 63, 1.0);
-  -webkit-transitionn: all .6s ease-in-out;
+  -webkit-transition: all .6s ease-in-out;
 }
 
 
