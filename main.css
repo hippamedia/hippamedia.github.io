@@ -165,286 +165,103 @@ a:active {
 	text-decoration: none;
 }
 
-#menuToggle
-{
-	
-	position: fixed;
-	top:0px;
-	right:0px;
-	z-index: 3;
-	width:90px;
-	height:90px;
-	padding:32px 10px 50px 29px;
-	background-color: rgba(255, 59, 63, 1.0);
-	
-  z-index: 3;
-  
-  -webkit-user-select: none;
-  user-select: none;
-}
-
-#menuToggle a
-{
-  text-decoration: none;
-  color: rgba(240, 240, 240, 1.0);
-  
-  
-  transition: color 0.3s ease;
-}
-
-#menuToggle a:hover
-{
-  color: tomato;
-}
-
-
-#menuToggle input
-{
-  display: block;
- width:90px;
-	height:90px;
-	padding:32px 10px 50px 29px;
-  position: absolute;
-top:0px;
-	right:0px;
-  
-  color: rgba(255, 59, 63, 1.0);
-  
-  cursor: pointer;
-  
-  opacity: 0; /* hide this */
-  z-index: 3; /* and place it over the hamburger */
-  
-  -webkit-touch-callout: none;
-}
-
-/*
- * Just a quick hamburger
- */
-#menuToggle span
-{
-  display: block;
-  width: 33px;
-  height: 4px;
-  margin-bottom: 5px;
-  position: relative;
-  background-color: rgba(240, 240, 240, 1.0);
-  border-radius: 3px;
-  
-  z-index: 2;
-  
-  transform-origin: 4px 0px;
-  
-  transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
-              opacity 0.55s ease;
-}
-
-#menuToggle span:first-child
-{
-  transform-origin: 0% 0%;
-}
-
-#menuToggle span:nth-last-child(2)
-{
-  transform-origin: 0% 100%;
-}
-
-/* 
- * Transform all the slices of hamburger
- * into a crossmark.
- */
-#menuToggle input:checked ~ span
-{
-  opacity: 1;
-  transform: rotate(45deg) translate(-2px, -1px);
-  background: rgba(240, 240, 240, 1.0);
-}
-
-/*
- * But let's hide the middle one.
- */
-#menuToggle input:checked ~ span:nth-last-child(3)
-{
-  opacity: 0;
-  transform: rotate(0deg) scale(0.2, 0.2);
-}
-
-/*
- * Ohyeah and the last one should go the other direction
- */
-#menuToggle input:checked ~ span:nth-last-child(2)
-{
-  transform: rotate(-45deg) translate(0, -1px);
-}
-
-/*
- * Make this absolute positioned
- * at the top left of the screen
- */
-#menu
-{
-  	position: fixed;
-	top: 0;
-	right:0;
-	z-index: 1;
-	width: 100vw;
-	height: 100vh;
-  background: rgba(255, 59, 63, 1.0);
-  list-style-type: none;
-  -webkit-font-smoothing: antialiased;
-  /* to stop flickering of text in safari */
-  
-  transform-origin: 0% 0%;
-  transform: translate(100%, 0);
-  
-  transition: transform 0.4s cubic-bezier(0.77,0.2,0.05,1.0);
-}
-
-
- 
-
-
-#menu li
-{
-	
-	line-height: 2.0;
-	font-weight: 800;
-	color: rgba(240, 240, 240, 1.0);
-	background-color: rgba(255, 59, 63, 1.0); 
-
-letter-spacing: 0.5rem;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 4.5vw;
-
-}
-
-/*
- * And let's slide it in from the left
- */
-#menuToggle input:checked ~ ul
-{
-  transform: none;
-}
-.container
-{
+.text{
   width: 100%;
-  height: 100vh;
-}
-
-/* -------------- Burgur styling ----------------- */
-.btn
-{
-  top: 0;
-  right: 0;
-  height: 70px;
-  width: 70px;
-  padding: 16px;
-  background: #FFE01A;
-  position: absolute;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.btn .bar1, .btn .bar2, .btn .bar3
-{
-  height: 4px;
-  width: 100%;
-  display: block;
-  background: #000;
-}
-
-/* ----------- close btn ------------- */
-.close-btn
-{
-  top: 0;
-  right: 0;
-  height: 70px;
-  width: 70px;
-  padding: 20px;
-  background: #FFE01A;
-  position: absolute;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  flex-direction: column;
-  cursor: pointer;
-}
-
-.close-btn .bar1
-{
-  transform: rotate(-130deg);
-  height: 4px;
-  width: 90%;
-  display: block;
-  background: #000;
-  position: absolute;
-}
-
-.close-btn .bar2
-{
-  display: none;
-}
-
-.close-btn .bar3
-{
-  transform: rotateZ(130deg);
-  height: 4px;
-  width: 90%;
-  display: block;
-  background: #000;
-  position: absolute;
-}
-
-/* ------------- Hide menu ----------- */
-.menu
-{
-  display: none;
-}
-
-/* ------------------- Menu styling --------------- */
-.open-menu
-{
-  width: 100%;
-  height: 100vh;
-  background: #FFE01A;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  transition: 5s all;
-}
-
-.open-menu ul
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.open-menu ul li
-{
-  list-style: none;
-  padding: 6px;
-}
-
-.open-menu ul li a
-{
-  text-decoration: none;
-  text-styling: none;
-  font-size: 5vw;
+  text-align: center;
+  margin-top: 10%;
+  font-size: 3em;
+  color: white;
   font-weight: 800;
-  color: #000;
 }
 
-.open-menu ul li a:hover
-{
-  border-bottom: 5px solid #000;
-  transition: 0.2s all;
+.menu-tab{
+  width: 90px;
+  height: 70px;
+  position: fixed;
+  z-index: 100;
+  top: 40px;
+  right: 20px;
+  cursor: pointer;
+  transition: all .6s ease-in-out;
 }
+  
+.menu-tab div {
+    width: 45px;
+    height: 6px;
+    background-color: white;
+    display: block;
+    margin: 8px 28px;
+    transition: all .6s ease-in-out;
+    
+    &:nth-child(1){
+      margin-top: 20px;
+    }
+  }/*end of div*/
+/*end of menu-tab*/
+
+.menu-tab.active{
+  right: 20px;
+  transition: all 600ms ease-in-out;
+  background-color: rgba(255, 59, 63, 0.0);
+}
+ .menu-tab.active   #one{
+      transform: translateY(14px) rotate(-135deg);
+      transition: all .2s ease-in-out;
+      background-color: white;
+    }
+    
+ .menu-tab.active   #two{
+      opacity: 0;
+      transition: .2s ease;
+    }
+    
+ .menu-tab.active   #three{
+      transform: translateY(-14px) rotate(-45deg);
+      transition: all .2s ease-in-out;
+      background-color: white;
+    }
+
+
+.menu-hide{
+  width: 100%;
+  left: -100%;
+  height: 100vh;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  transition: all .2s ease-in-out;
+  
+  nav{
+    ul{
+      li{
+        height: 70px;
+        list-style-type: none;
+        text-align: center;
+        line-height: 70px;
+        transition: all .5s ease;
+        
+        &:hover{
+          background-color: red;
+          transition: all .5s ease;
+        }
+
+        a{
+          padding: 30px 25px;
+          text-decoration: none;
+          color: white;
+          font-weight: 800;
+
+        }
+      }/*end of li*/
+    }/*end of ul*/
+  }/*end of nav*/
+}/*end of menu-hide*/
+.menu-hide.show{
+  left: 0px;
+  background-color: rgba(255, 59, 63, 1.0);
+  transition: all .6s ease-in-out;
+}
+
 
 .linkit {
 position: relative;
@@ -746,7 +563,6 @@ h3{
 	line-height: 1.5;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
-	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
 letter-spacing: 0.1rem;
   font-family: 'DM Sans', sans-serif;
@@ -904,7 +720,6 @@ h3{
 	line-height: 1.5;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
-	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
 letter-spacing: 0.1rem;
  font-family: 'DM Sans', sans-serif;
@@ -942,15 +757,6 @@ letter-spacing: 0.1rem;
 
 }
 
-#menu li
-{
-
-	line-height: 2.0;
-	font-weight: 800;
-letter-spacing: 0.3rem;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 40px;
-}
 
 .tehoste {
 	color: rgba(240, 240, 240, 1.0);
@@ -1033,12 +839,11 @@ h3{
 	line-height: 1.5;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
-	background-color: rgba(255, 59, 63, 1.0); 
 text-align: center;
-letter-spacing: 0.1rem;
+letter-spacing: 0.3rem;
   font-family: 'DM Sans', sans-serif;
-  font-size: 15px;
-  padding: 15px;
+  font-size: 40px;
+ margin-top: 150px;
 }
 
 

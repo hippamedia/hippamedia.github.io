@@ -12,37 +12,20 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	</head>
 	<body>
-	 <nav role="navigation">
-  <div id="menuToggle">
-    <!--
-    A fake / hidden checkbox is used as click reciever,
-    so you can use the :checked selector on it.
-    -->
-    <input type="checkbox">
-    
-    <!--
-    Some spans to act as a hamburger.
-    
-    They are acting like a real hamburger,
-    not that McDonalds stuff.
-    -->
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <!--
-    Too bad the menu has to be inside of the button
-    but hey, it's pure CSS magic.
-    -->
-    <ul id="menu">
-	<div class="linkit">
-      <a href="#form" onclick="myFunction()"><li>OTA YHTEYTTÄ</li></a>
-	<!-- <a href="https://hippamedia.github.io/#"><li>SHOWREEL</li></a> -->
-      <a href="#content3"><li>ASIAKKAAMME</li></a>
-	  </div>
+	
+<div class="menu-tab">
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+</div>
+<div class="menu-hide">
+  <nav>
+    <ul>
+      <li><a href="#"><h3>ASIAKKAAT</h3></a></li>
+      <li><a href="#"><h3>OTA YHTEYTTÄ</h3></a></li>
     </ul>
-  </div>
-</nav>
+  </nav>
+</div>
 
 		<div class="taustavideo">
 			<video autoplay="" muted="" loop="" playsinline="">
