@@ -643,7 +643,7 @@ display: inline-block;
 
 
 
-.content3{
+#content3{
 	background: rgb(240,240,240);
 	position: relative;
 	top: 200px;
@@ -654,7 +654,7 @@ display: inline-block;
   padding-bottom: 300px;
 }
 
-.form{
+#form{
 	background: rgb(240,240,240);
 	position: relative;
 	top: 100px;
