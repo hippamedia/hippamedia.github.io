@@ -446,7 +446,7 @@ letter-spacing: 0.5rem;
   transition: 0.2s all;
 }
 
-#linkit {
+.linkit {
 position: relative;
   top: 45%;
   -webkit-transform: translateY(-50%);

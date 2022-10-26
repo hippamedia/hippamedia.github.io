@@ -1,8 +1,6 @@
-$(".btn").on("click", function(){
-  $(".btn").toggleClass("close-btn");
-  $(".menu").toggleClass("open-menu");
+$( '.a' ).on("click", function(){
+  $('#menuToggle').click();
 });
-
    $(window).scroll(function() {
 
     if ($(this).scrollTop()>100)
