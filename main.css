@@ -231,6 +231,7 @@ a:active {
   z-index: 10;
   top: 0px;
   -webkit-transition: all 0.2s ease-in-out;
+  text-align: center;
   
   nav{
     ul{
@@ -346,6 +347,17 @@ width: 150%;
   transform: translate(-50%, -50%);
   -webkit-transform: rotate(90deg);
   opacity: 0.12;
+}
+
+img.icon_menu {
+
+position: relative;
+display: inline-block;
+width: 80px;
+top: 80%;
+margin: 20px;
+
+opacity: 1;
 }
 
 @keyframes rotation {
@@ -856,7 +868,7 @@ text-align: center;
 letter-spacing: 0.3rem;
   font-family: 'DM Sans', sans-serif;
   font-size: 40px;
- margin-top: 150px;
+ margin-top: 100px;
 }
 
 
