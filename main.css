@@ -311,13 +311,14 @@ position: relative;
 	}
 
 #intro {
-	background-color: rgba(0, 0, 0, 0.0);
+	background-color: rgba(0, 0, 0, 0);
 	position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   width: 100%;
   height: 100%;
+ 
 }
 
 .asiakkaat {
@@ -328,12 +329,23 @@ position: relative;
 
 
 img.logo {
-	
+
 position: absolute;
 width: 80%;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+img.logo_menu {
+
+position: absolute;
+width: 150%;
+  top: 30%;
+  left: -50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: rotate(90deg);
+  opacity: 0.12;
 }
 
 @keyframes rotation {
