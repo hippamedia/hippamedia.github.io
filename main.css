@@ -349,15 +349,20 @@ width: 150%;
   opacity: 0.12;
 }
 
-img.icon_menu {
+.icon_menu {
 
 position: relative;
 display: inline-block;
-width: 80px;
+width: 100%;
 top: 80%;
 margin: 20px;
 
 opacity: 1;
+}
+
+img.icons {
+
+width: 80px;
 }
 
 @keyframes rotation {
