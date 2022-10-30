@@ -591,14 +591,14 @@ h5{
 	line-height: 1.5;
 	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
-text-align: right;
+text-align: center;
 letter-spacing: 0.2rem;
   font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-left: 10%;
-  margin-right: 50%;
+  margin-right: 10%;
  
 }
 
@@ -748,14 +748,14 @@ h5{
 	line-height: 1.5;
 	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
-text-align: right;
+text-align: center;
 letter-spacing: 0.2rem;
  font-family: 'Quicksand', sans-serif;
   font-size: 18px;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-left: 10%;
-  margin-right: 50%;
+  margin-right: 10%;
 }
 
 h3{
@@ -967,14 +967,14 @@ h5{
 	line-height: 1.5;
 	font-weight: 500;
 	color: rgba(44, 47, 50, 1.0); 
-text-align: right;
+text-align: center;
 letter-spacing: 0.2rem;
   font-family: 'Quicksand', sans-serif;
   font-size: 15px;
   margin-top: 200px;
   margin-bottom: 100px;
   margin-left: 10%;
-  margin-right: 50%;
+  margin-right: 10%;
 }
 
 h3{
