@@ -355,7 +355,7 @@ position: absolute;
 
 width: 100%;
 top: 80%;
-margin: 20px;
+
 
 opacity: 1;
 }
@@ -363,6 +363,7 @@ opacity: 1;
 img.icons {
 display: inline-block;
 width: 80px;
+margin: 20px;
 }
 
 @keyframes rotation {
