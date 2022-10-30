@@ -353,11 +353,8 @@ width: 150%;
 .icon_menu {
 
 position: absolute;
-
 width: 100%;
-top: 70%;
-
-
+top: calc(90% - 60px);
 opacity: 1;
 }
 
@@ -592,14 +589,15 @@ letter-spacing: 0.2rem;
 }
 
 h3{
-	line-height: 1.5;
+	line-height: 5vh;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
 text-align: center;
-letter-spacing: 0.1rem;
+letter-spacing: 0.5rem;
   font-family: 'Quicksand', sans-serif;
-  font-size: 2.5vw;
+  font-size: 4vw;
   padding: 20px;
+  margin-top: 100px;
 }
 
 h6{
@@ -749,14 +747,15 @@ letter-spacing: 0.2rem;
 }
 
 h3{
-	line-height: 1.5;
+	line-height: 5vh;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
 text-align: center;
-letter-spacing: 0.1rem;
+letter-spacing: 0.5rem;
  font-family: 'Quicksand', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
   padding: 20px;
+  margin-top: 100px;
 }
 
 }
@@ -789,6 +788,11 @@ letter-spacing: 0.1rem;
 
 }
 
+.icon_menu {
+	
+top: calc(90% - 100px);
+
+}
 
 .tehoste {
 	color: rgba(240, 240, 240, 1.0);
@@ -868,7 +872,7 @@ letter-spacing: 0.2rem;
 }
 
 h3{
-	line-height: 1.5;
+	line-height: 5vh;
 	font-weight: 600;
 	color: rgba(240, 240, 240, 1.0);
 text-align: center;
