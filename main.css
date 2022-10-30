@@ -787,6 +787,10 @@ letter-spacing: 0.1rem;
   font-weight: 800;
 
 }
+img.icons {
+width: 60px;
+margin: 20px;
+}
 
 .icon_menu {
 	
