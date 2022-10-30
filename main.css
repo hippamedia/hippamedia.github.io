@@ -177,12 +177,13 @@ a:active {
 
 .menu-tab{
   width: 90px;
-  height: 70px;
+  height: 90px;
   position: fixed;
   z-index: 100;
-  top: 40px;
-  right: 20px;
+  padding-top: 20px;
+  right: 0px;
   cursor: pointer;
+  background-color: rgba(255, 59, 63, 1.0);
   -webkit-transition: all 0.2s ease-in-out;
 }
   
@@ -191,7 +192,7 @@ a:active {
     height: 6px;
     background-color: white;
     display: block;
-    margin: 8px 28px;
+    margin: 8px 23px;
     -webkit-transition: all 0.2s ease-in-out;
     
     &:nth-child(1){
@@ -201,9 +202,9 @@ a:active {
 /*end of menu-tab*/
 
 .menu-tab.active{
-  right: 20px;
+  right: 0px;
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: rgba(255, 59, 63, 0.0);
+  background-color: rgba(255, 59, 63, 1.0);
 }
  .menu-tab.active   #one{
       -webkit-transform: translateY(14px) rotate(-135deg);
