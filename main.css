@@ -389,6 +389,14 @@ width: 20%;
 
 }
 
+img.logo_bottom {
+	
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+}
+
 
 img.yhteistyo {
 	margin-top: 0px;
@@ -739,6 +747,8 @@ width: 1600px;
   transform: translate(-50%, -50%);
 }
 
+
+
 img.logo2 {
 	
 position: absolute;
@@ -953,6 +963,14 @@ width: 100%;
   -webkit-transform: rotate(0deg);
   opacity: 0.05;
   z-index: 2;
+}
+
+img.logo_bottom {
+	
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
 }
 
 form input,
