@@ -437,7 +437,6 @@ img.ikonit {
   width: 100%;
   height: auto;
   text-align: center;
-  margin: 0;
 }
 .markkinointivideot {
   width: 25%;
@@ -911,6 +910,7 @@ h8 {
     position: absolute;
     width: 100%;
     bottom: 0px;
+    left: -1%;
     transform: translate(-50%, -50%);
     -webkit-transform: rotate(0deg);
     opacity: 0.05;
@@ -1013,7 +1013,7 @@ h8 {
     text-align: left;
     letter-spacing: 0.2rem;
     font-family: "Marcellus", serif;
-    font-size: 30px;
+    font-size: 35px;
     margin-top: 10px;
   }
 
