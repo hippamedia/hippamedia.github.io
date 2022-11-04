@@ -846,6 +846,12 @@ h8 {
     width: 60px;
     margin: 20px;
   }
+  
+  img.ikonit {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  width: 150px;
+}
 
   .icon_menu {
     top: calc(90% - 120px);
