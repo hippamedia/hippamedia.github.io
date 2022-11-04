@@ -280,8 +280,8 @@ a:active {
   justify-items: center;
   align-items: center;
   position: fixed;
-  width: 102%;
-  height: 102%;
+  width: 104%;
+  height: 104%;
   overflow: hidden;
   z-index: 0;
 }
@@ -443,7 +443,8 @@ img.ikonit {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-
+  margin-left: 10%;
+  margin-right: 10%;
   margin-top: 100px;
 }
 
