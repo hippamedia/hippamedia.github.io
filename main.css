@@ -873,7 +873,7 @@ h8 {
   }
 
   .markkinointivideot {
-    width: 320px;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
@@ -883,7 +883,7 @@ h8 {
   }
 
   .some {
-    width: 320px;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
@@ -893,7 +893,7 @@ h8 {
   }
 
   .dokumentit {
-    width: 320px;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
@@ -903,7 +903,7 @@ h8 {
   }
 
   .ilmakuvaus {
-    width: 320px;
+    width: 80%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
