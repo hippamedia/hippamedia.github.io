@@ -477,6 +477,10 @@ img.ikonit {
   margin-top: 100px;
 }
 
+hr {
+  border-width: 1px;
+}
+
 hr.rounded {
   border-top: 4px solid #ffffff;
   border-radius: 4px;
