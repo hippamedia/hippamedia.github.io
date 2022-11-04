@@ -481,27 +481,30 @@ hr.rounded {
   border-top: 4px solid #ffffff;
   border-radius: 4px;
   opacity: 0.1;
-  margin-left: 12%;
-  margin-right: 12%;
+  width: 80%;
   margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr.rounded1 {
   border-top: 4px solid #ffffff;
   border-radius: 4px;
   opacity: 0.1;
-  margin-left: 12%;
-  margin-right: 12%;
+  width: 80%;
   margin-top: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 hr.roundeddark {
   border-top: 4px solid #000000;
   opacity: 0.1;
-  margin-left: 12%;
-  margin-right: 12%;
+  width: 80%;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #content3 {
