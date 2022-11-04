@@ -486,8 +486,6 @@ hr.rounded {
   opacity: 0.1;
   width: 80%;
   margin-top: 200px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 hr.rounded1 {
@@ -498,8 +496,6 @@ hr.rounded1 {
   opacity: 0.1;
   width: 80%;
   margin-top: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 hr.roundeddark {
@@ -511,8 +507,6 @@ hr.roundeddark {
   width: 80%;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 #content3 {
