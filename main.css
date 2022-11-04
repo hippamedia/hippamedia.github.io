@@ -443,8 +443,7 @@ img.ikonit {
   display: inline-block;
   vertical-align: top;
   text-align: left;
-  margin-left: 10%;
-  margin-right: 10%;
+
   margin-top: 100px;
 }
 
@@ -482,8 +481,8 @@ hr.rounded {
   border-top: 4px solid #ffffff;
   border-radius: 4px;
   opacity: 0.1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-top: 200px;
 }
 
@@ -491,16 +490,16 @@ hr.rounded1 {
   border-top: 4px solid #ffffff;
   border-radius: 4px;
   opacity: 0.1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-top: 0px;
 }
 
 hr.roundeddark {
   border-top: 4px solid #000000;
   opacity: 0.1;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 12%;
+  margin-right: 12%;
   margin-top: 0px;
   margin-bottom: 0px;
 }
