@@ -487,7 +487,7 @@ img.ikonit {
 
 
 hr.rounded {
-  border: none;
+  border-radius: 5px;
   height: 4px;
   color: #FFFFFF;
   background-color: #FFFFFF;
@@ -499,7 +499,7 @@ hr.rounded {
 }
 
 hr.rounded1 {
-  border: none;
+  border-radius: 5px;
   height: 4px;
   color: #FFFFFF;
   background-color: #FFFFFF;
@@ -511,14 +511,14 @@ hr.rounded1 {
 }
 
 hr.roundeddark {
-  border: none;
+  border-radius: 5px;
   height: 4px;
   color: #000000;
   background-color: #000000;
   opacity: 0.1;
   width: 80%;
-  margin-top: -100px;
-  margin-bottom: 200px;
+  margin-top: 0px;
+  margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -666,20 +666,14 @@ h8 {
 @media only screen and (min-width: 2001px) {
   hr.rounded {
     width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   hr.rounded1 {
     width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   hr.roundeddark {
     width: 1600px;
-    margin-left: auto;
-    margin-right: auto;
   }
 
   .otsikko {
