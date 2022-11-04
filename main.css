@@ -477,44 +477,42 @@ img.ikonit {
   margin-top: 100px;
 }
 
-hr {
-  border-width: 1px;
-}
 
 hr.rounded {
-  border-top: 4px solid #ffffff;
-  border-radius: 4px;
+  border: none;
+  height: 4px;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
   opacity: 0.1;
   width: 80%;
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
-  border-right : 0;
-  border-left: 0;
 }
 
 hr.rounded1 {
-  border-top: 4px solid #ffffff;
-  border-radius: 4px;
+  border: none;
+  height: 4px;
+  color: #FFFFFF;
+  background-color: #FFFFFF;
   opacity: 0.1;
   width: 80%;
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
-  border-right : 0;
-  border-left: 0;
 }
 
 hr.roundeddark {
-  border-top: 4px solid #000000;
+  border: none;
+  height: 4px;
+  color: #000000;
+  background-color: #000000;
   opacity: 0.1;
   width: 80%;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  border-right : 0;
-  border-left: 0;
 }
 
 #content3 {
