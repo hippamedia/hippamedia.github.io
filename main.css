@@ -417,7 +417,7 @@ img.ikonit {
   text-align: center;
 }
 
-.content {
+#content {
   background-color: rgba(44, 47, 50, 0);
   position: relative;
   top: 10px;
