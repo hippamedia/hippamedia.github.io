@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Serif&family=DM+Sans&family=DM+Serif+Display&family=Marcellus&family=Quicksand:wght@400;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Comfortaa:wght@300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -30,7 +30,7 @@ form fieldset,
 form optgroup,
 form label,
 .StripeElement {
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 20px;
   color: inherit;
   border: none;
@@ -570,7 +570,7 @@ h1 {
   color: rgba(240, 240, 240, 1);
   text-align: left;
   letter-spacing: 0.4rem;
-  font-family: "Marcellus", serif;
+  font-family: 'Alata', sans-serif;
   font-size: 4.5vw;
   margin-top: 150px;
   margin-bottom: 150px;
@@ -584,7 +584,7 @@ h2 {
   color: rgba(240, 240, 240, 1);
   text-align: left;
   letter-spacing: 0.4rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 3vw;
   margin-top: 5%;
   margin-bottom: 200px;
@@ -598,7 +598,7 @@ h4 {
   color: rgba(44, 47, 50, 1);
   text-align: center;
   letter-spacing: 0.2rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Alata', sans-serif;
   font-size: 30px;
   margin-top: 80px;
   margin-left: 10%;
@@ -611,7 +611,7 @@ h5 {
   color: rgba(44, 47, 50, 1);
   text-align: center;
   letter-spacing: 0.2rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 18px;
   margin-top: 200px;
   margin-bottom: 100px;
@@ -625,7 +625,7 @@ h3 {
   color: rgba(240, 240, 240, 1);
   text-align: center;
   letter-spacing: 0.5rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Alata', sans-serif;
   font-size: 4vw;
   padding: 20px;
   margin-top: 100px;
@@ -637,7 +637,7 @@ h6 {
   color: rgba(240, 240, 240, 1);
   text-align: left;
   letter-spacing: 0.2rem;
-  font-family: "Marcellus", serif;
+  font-family: 'Alata', sans-serif;
   font-size: 2.5vw;
   margin-top: 10px;
 }
@@ -648,7 +648,7 @@ h7 {
   color: rgba(44, 47, 50, 1);
   text-align: center;
   letter-spacing: 0.2rem;
-  font-family: "Marcellus", serif;
+  font-family: 'Alata', sans-serif;
   font-size: 35px;
 }
 
@@ -658,7 +658,7 @@ h8 {
   color: rgba(240, 240, 240, 1);
   text-align: left;
   letter-spacing: 0.2rem;
-  font-family: "Quicksand", sans-serif;
+  font-family: 'Comfortaa', cursive;
   font-size: 2vw;
   margin-top: 500px;
 }
@@ -731,7 +731,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.4rem;
-    font-family: "Marcellus", serif;
+    font-family: 'Alata', sans-serif;
     font-size: 90px;
     margin-left: calc(50% - 800px);
     margin-right: calc(50% - 800px);
@@ -743,7 +743,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.4rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 60px;
     margin-left: calc(50% - 800px);
     margin-right: calc(50% - 800px);
@@ -755,7 +755,7 @@ h8 {
     color: rgba(44, 47, 50, 1);
     text-align: center;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 30px;
     margin-top: 80px;
     margin-left: 10%;
@@ -768,7 +768,7 @@ h8 {
     color: rgba(44, 47, 50, 1);
     text-align: center;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 18px;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -782,7 +782,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: center;
     letter-spacing: 0.5rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 80px;
     padding: 20px;
     margin-top: 100px;
@@ -794,7 +794,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Marcellus", serif;
+    font-family: 'Alata', sans-serif;
     font-size: 50px;
     margin-top: 10px;
   }
@@ -805,7 +805,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 40px;
     margin-top: 500px;
   }
@@ -955,7 +955,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Marcellus", serif;
+    font-family: 'Alata', sans-serif;
     font-size: 40px;
     margin-top: 150px;
     margin-left: 10%;
@@ -968,7 +968,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 30px;
     margin-top: 10%;
     margin-left: 10%;
@@ -981,7 +981,7 @@ h8 {
     color: rgba(44, 47, 50, 1);
     text-align: center;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 30px;
     margin-top: 80px;
     margin-left: 10%;
@@ -994,7 +994,7 @@ h8 {
     color: rgba(44, 47, 50, 1);
     text-align: center;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 15px;
     margin-top: 200px;
     margin-bottom: 100px;
@@ -1008,7 +1008,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: center;
     letter-spacing: 0.1rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Alata', sans-serif;
     font-size: 40px;
     margin-top: 100px;
   }
@@ -1019,7 +1019,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Marcellus", serif;
+    font-family: 'Alata', sans-serif;
     font-size: 35px;
     margin-top: 10px;
   }
@@ -1030,7 +1030,7 @@ h8 {
     color: rgba(240, 240, 240, 1);
     text-align: left;
     letter-spacing: 0.2rem;
-    font-family: "Quicksand", sans-serif;
+    font-family: 'Comfortaa', cursive;
     font-size: 25px;
     margin-top: 500px;
   }
