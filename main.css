@@ -369,10 +369,10 @@ img.icons {
 
 @keyframes rotation {
   from {
-    transform: translate(15%, -50%) rotate(0deg);
+    transform: translate(13.5%, -49.5%) rotate(0deg);
   }
   to {
-    transform: translate(15%, -50%) rotate(359deg);
+    transform: translate(13.5%, -49.5%) rotate(359deg);
   }
 }
 
