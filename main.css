@@ -382,7 +382,7 @@ img.logo2 {
   top: 50%;
   left: 50%;
   transform: translate(23%, -30%);
-  animation: rotation 24s infinite linear;
+  animation: rotation 48s infinite linear;
 }
 
 img.logo_bottom {
