@@ -186,7 +186,7 @@ a:active {
   padding-top: 20px;
   right: 0px;
   cursor: pointer;
-  background-color: rgba(255, 59, 63, 1);
+  background-color: rgba(255, 41, 96, 1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -207,7 +207,7 @@ a:active {
 .menu-tab.active {
   right: 0px;
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: rgba(255, 59, 63, 1);
+  background-color: rgba(255, 41, 96, 1);
 }
 .menu-tab.active #one {
   -webkit-transform: translateY(14px) rotate(-135deg);
@@ -262,7 +262,7 @@ a:active {
 } /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
-  background-color: rgba(255, 59, 63, 1);
+  background-color: rgba(255, 41, 96, 1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -436,7 +436,7 @@ img.ikonit {
 }
 
 #content2 {
-  background-color: rgba(255, 59, 63, 0);
+  background-color: rgba(255, 41, 96, 0);
   position: relative;
   top: 10px;
   left: 50%;
@@ -699,7 +699,7 @@ h8 {
   }
 
   #content2 {
-    background-color: rgba(255, 59, 63, 0);
+    background-color: rgba(255, 41, 96, 0);
     position: relative;
     top: 10px;
     left: 50%;
