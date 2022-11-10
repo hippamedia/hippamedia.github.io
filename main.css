@@ -332,6 +332,8 @@ img {
 
 
 img.logo {
+	-webkit-animation: text-focus-in 1.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: text-focus-in 1.7s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
   -webkit-filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.3));
   filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.3));
   position: absolute;
@@ -342,6 +344,7 @@ img.logo {
 }
 
 img.logo_menu {
+
   position: absolute;
   width: 150%;
   top: 30%;
@@ -369,22 +372,73 @@ img.icons {
   margin: 20px;
 }
 
-@keyframes rotation {
-  from {
-    transform: translate(0%, -36%) rotate(0deg);
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
   }
-  to {
-    transform: translate(0%, -36%) rotate(359deg);
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes roll-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-800px) rotate(-720deg);
+            transform: translateY(-800px) rotate(-720deg);
+    -webkit-filter: blur(200px);
+            filter: blur(200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
+  }
+}
+@keyframes roll-in-blurred-top {
+  0% {
+    -webkit-transform: translateY(-800px) rotate(-720deg);
+            transform: translateY(-800px) rotate(-720deg);
+    -webkit-filter: blur(200px);
+            filter: blur(200px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0) rotate(0deg);
+            transform: translateY(0) rotate(0deg);
+    -webkit-filter: blur(0);
+            filter: blur(0);
+    opacity: 1;
   }
 }
 
 img.logo2 {
+		-webkit-animation: roll-in-blurred-top 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+	        animation: roll-in-blurred-top 1.5s cubic-bezier(0.230, 1.000, 0.320, 1.000) 0.5s both;
+	 -webkit-filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.3));
+  filter: drop-shadow(5px 5px 8px rgba(0,0,0,0.3));
   position: absolute;
-  width: 20%;
-  top: 50%;
-  left: 50%;
-  transform: translate(23%, -30%);
-  animation: rotation 48s infinite linear;
+  width: 20.5%;
+  top: calc(50% - 7.5vw);
+  left: calc(50% - 0.5vw);
 }
 
 img.logo_bottom {
@@ -721,10 +775,9 @@ h8 {
 
   img.logo2 {
     position: absolute;
-    width: 390px;
-    top: 50%;
-    left: 50%;
-    transform: translate(23%, -30%);
+    width: 410px;
+    top: calc(50% - 150px);
+    left: calc(50% - 10px);
   }
 
   h1 {
@@ -931,7 +984,9 @@ h8 {
   }
 
   img.logo2 {
-    width: 26%;
+    width: 27.5%;
+	  top: calc(50% - 10vw);
+  left: calc(50% - 0.5vw);
   }
 
   img.logo_bottom {
