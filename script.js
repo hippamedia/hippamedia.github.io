@@ -20,3 +20,11 @@ $(document).ready(function(){
       $('.ball').fadeIn();
      }
  });
+ 
+         $(document).ready(function(){
+            $(window).scroll(function(){
+                $('.taustavideo video').css("opacity", 0.8 - $(window).scrollTop() / 1000)
+            })
+        })
+		
+	
