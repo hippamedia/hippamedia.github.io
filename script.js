@@ -23,7 +23,7 @@ $(document).ready(function(){
  
          $(document).ready(function(){
             $(window).scroll(function(){
-                $('.taustavideo video').css("opacity", 0.8 - $(window).scrollTop() / 1000)
+                $('.taustavideo video').css("opacity", 1 - $(window).scrollTop() / 1500 + 1)
             })
         })
 		
