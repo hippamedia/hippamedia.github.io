@@ -213,6 +213,7 @@ a:active {
   -webkit-transform: translateY(14px) rotate(-135deg);
   -webkit-transition: all 0.2s ease-in-out;
   background-color: #222222;
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
 .menu-tab.active #two {
@@ -224,6 +225,7 @@ a:active {
   -webkit-transform: translateY(-14px) rotate(-45deg);
   -webkit-transition: all 0.2s ease-in-out;
   background-color: #222222;
+  -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
 .menu-hide {
@@ -882,14 +884,29 @@ h8 {
   right: calc(50% - 45px);
   bottom: 0;
   cursor: pointer;
-  background-color: rgba(255, 200, 10, 1);
+  background-color: rgba(255, 200, 10, 0);
   -webkit-transition: all 0.2s ease-in-out;
+}
+
+.menu-tab div {
+  width: 45px;
+  height: 6px;
+  background-color: rgba(255, 200, 10, 1);
+  -webkit-filter: drop-shadow(4px 4px 0px rgba(0,0,0,1));
+  display: block;
+  margin: 8px 23px;
+  -webkit-transition: all 0.2s ease-in-out;
+
+  &:nth-child(1) {
+    margin-top: 20px;
+  }
 }
 
 .menu-tab.active {
   right: calc(50% - 45px);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: rgba(255, 200, 10, 1);
+  background-color: rgba(255, 200, 10, 0);
+  
 }
 
   .ball {
