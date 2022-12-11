@@ -238,29 +238,6 @@ a:active {
   -webkit-transition: all 0.2s ease-in-out;
   text-align: center;
 
-  nav {
-    ul {
-      li {
-        height: 70px;
-        list-style-type: none;
-        text-align: center;
-        line-height: 70px;
-        -webkit-transition: all 0.2s ease;
-
-        &:hover {
-          background-color: red;
-          -webkit-transition: all 0.2s ease;
-        }
-
-        a {
-          padding: 30px 25px;
-          text-decoration: none;
-          color: white;
-          font-weight: 800;
-        }
-      } /*end of li*/
-    } /*end of ul*/
-  } /*end of nav*/
 } /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
@@ -945,7 +922,8 @@ h8 {
 }
 
   .icon_menu {
-    top: calc(90% - 120px);
+    top: 0px;
+	margin-bottom: 200px;
   }
 
   .tehoste {
