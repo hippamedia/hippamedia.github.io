@@ -21,10 +21,12 @@ $(document).ready(function(){
      }
  });
  
-         $(document).ready(function(){
-            $(window).scroll(function(){
-                $('.taustavideo video').css("opacity", 1 - $(window).scrollTop() / 1500 + 1)
-            })
-        })
-		
-	
+$(document).ready(function() {
+        $(window).scroll(function(event) {
+            let scroll = $(this).scrollTop();
+            let opacity = 1 - (scroll / 1000);
+            if (opacity >= 0.3) {
+                $('.taustavideo video').css('opacity', opacity);
+            }
+        });
+    });
