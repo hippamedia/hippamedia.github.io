@@ -872,6 +872,26 @@ h8 {
 }
 
 @media only screen and (max-width: 1001px) {
+	
+	.menu-tab {
+  width: 90px;
+  height: 90px;
+  position: fixed;
+  z-index: 100;
+  padding-top: 20px;
+  right: calc(50% - 45px);
+  bottom: 0;
+  cursor: pointer;
+  background-color: rgba(255, 200, 10, 1);
+  -webkit-transition: all 0.2s ease-in-out;
+}
+
+.menu-tab.active {
+  right: calc(50% - 45px);
+  -webkit-transition: all 0.2s ease-in-out;
+  background-color: rgba(255, 200, 10, 1);
+}
+
   .ball {
     width: 10px;
     height: 10px;
