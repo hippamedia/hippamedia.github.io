@@ -193,7 +193,7 @@ a:active {
 .menu-tab div {
   width: 45px;
   height: 6px;
-  background-color: #333C83;
+  background-color: #222222;
   display: block;
   margin: 8px 23px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -212,7 +212,7 @@ a:active {
 .menu-tab.active #one {
   -webkit-transform: translateY(14px) rotate(-135deg);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: #333C83;
+  background-color: #222222;
   -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
@@ -224,7 +224,7 @@ a:active {
 .menu-tab.active #three {
   -webkit-transform: translateY(-14px) rotate(-45deg);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: #333C83;
+  background-color: #222222;
   -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
@@ -241,7 +241,7 @@ a:active {
 } /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
-  background-color: rgba(242, 74, 114, 1);
+  background-color: rgba(234,234,127,1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -662,7 +662,7 @@ h5 {
 h3 {
   line-height: 5vh;
   font-weight: 600;
-  color: #EAEA7F;
+  color: #222222;
   text-align: center;
   letter-spacing: 0.5rem;
   font-family: 'Alata', sans-serif;
@@ -818,7 +818,7 @@ h8 {
   h3 {
     line-height: 5vh;
     font-weight: 600;
-    color: #EAEA7F;
+    color: #222222;
     text-align: center;
     letter-spacing: 0.5rem;
     font-family: 'Alata', sans-serif;
@@ -869,7 +869,7 @@ h8 {
   width: 45px;
   height: 6px;
   background-color: rgb(234, 234, 127, 1);
-  -webkit-filter: drop-shadow(4px 4px 0px rgba(51,60,131,1));
+  -webkit-filter: drop-shadow(4px 4px 0px rgba(34,34,34,1));
   display: block;
   margin: 8px 23px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -1083,7 +1083,7 @@ h8 {
   h3 {
     line-height: 3vh;
     font-weight: 600;
-    color: #EAEA7F;
+    color: #222222;
     text-align: center;
     letter-spacing: 0.1rem;
     font-family: 'Alata', sans-serif;
