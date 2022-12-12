@@ -15,17 +15,14 @@ $(document).ready(function(){
      {
         $('.ball').fadeOut();
      }
-    else
-     {
-      $('.ball').fadeIn();
-     }
+
  });
  
 $(document).ready(function() {
         $(window).scroll(function(event) {
             let scroll = $(this).scrollTop();
             let opacity = 1 - (scroll / 1000);
-            if (opacity >= 0.3) {
+            if (opacity >= 0.25) {
                 $('.taustavideo video').css('opacity', opacity);
             }
         });
