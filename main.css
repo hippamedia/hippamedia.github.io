@@ -186,7 +186,7 @@ a:active {
   padding-top: 20px;
   right: 0px;
   cursor: pointer;
-  background-color: rgb(234, 234, 127, 1);
+  background-color: rgba(240, 220, 100, 1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -241,7 +241,7 @@ a:active {
 } /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
-  background-color: rgba(234,234,127,1);
+  background-color: rgba(240,220,100,1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -868,7 +868,7 @@ h8 {
 .menu-tab div {
   width: 45px;
   height: 6px;
-  background-color: rgb(234, 234, 127, 1);
+  background-color: rgba(240, 220, 100, 1);
   -webkit-filter: drop-shadow(4px 4px 0px rgba(34,34,34,1));
   display: block;
   margin: 8px 23px;
