@@ -311,7 +311,7 @@ border-radius: 20% / 50%;
   -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
   -o-transform: translate(-50%, -50%); /* Opera */
   transform: translate(-50%, -50%);
-  height: 50%;
+  height: 75%;
 }
 
 .taustavideo {
