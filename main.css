@@ -303,8 +303,8 @@ a:active {
 .asiakkaat {
   opacity: 0.8;
   text-align: center;
-  width: 72%;
-  margin-left: 14%;
+  width: 70%;
+  margin: 0 auto;
 }
 
 img {
