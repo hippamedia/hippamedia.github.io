@@ -244,6 +244,54 @@ a:active {
   -webkit-transition: all 0.2s ease-in-out;
 }
 
+.wave {
+    background: rgb(0 0 0 / 3%);
+border-radius: 20% / 50%;
+    position: fixed;
+    width: 200%;
+    height: 200vh;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    top: -40vh;
+    right: 10vw;
+    z-index: -20;
+}
+
+.wave:nth-of-type(2) {
+    right: 40vw;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    right: 70vw;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+	
+    2% {
+        transform: translateY(1);
+    }
+
+    25% {
+        transform: translateY(-12%);
+    }
+
+    50% {
+        transform: translateY(-30%);
+    }
+
+    75% {
+        transform: translateY(-12%);
+    }
+
+    100% {
+        transform: translateY(1);
+    }
+}
 
 .linkit {
   position: relative;
@@ -263,6 +311,7 @@ a:active {
   -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
   -o-transform: translate(-50%, -50%); /* Opera */
   transform: translate(-50%, -50%);
+  height: 50%;
 }
 
 .taustavideo {
@@ -1110,7 +1159,7 @@ img.yhteistyo {
   }
 
   h3 {
-	line-height: 2;
+	  line-height: 2;
     font-weight: 600;
     color: #222222;
     text-align: right;
