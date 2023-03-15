@@ -244,6 +244,55 @@ a:active {
   -webkit-transition: all 0.2s ease-in-out;
 }
 
+.wave {
+    background: rgb(4 23 43 / 20%);
+    border-top-left-radius: 100%200px;
+border-top-right-radius: 100%200px; 
+    position: absolute;
+    width: 200%;
+    height: 100%;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: 0.8;
+    top: 88vh;
+    left: 0%;
+    z-index: 1;
+}
+
+.wave:nth-of-type(2) {
+    top: 90vh;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.8;
+}
+
+.wave:nth-of-type(3) {
+    top: 93vh;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.9;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-12%);
+    }
+
+    50% {
+        transform: translateX(-25%);
+    }
+
+    75% {
+        transform: translateX(-12%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
 .linkit {
   position: relative;
   top: 45%;
