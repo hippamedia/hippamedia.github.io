@@ -303,8 +303,8 @@ a:active {
 .asiakkaat {
   opacity: 0.8;
   text-align: center;
-  width: 70%;
   margin: 0 auto;
+  width: 80%;
 }
 
 img {
@@ -434,10 +434,10 @@ img.logo_bottom {
 
 img.yhteistyo {
   margin-top: 0px;
-  margin-left: 8%;
-  margin-right: 8%;
+  margin-left: 9%;
+  margin-right: 9%;
   margin-bottom: 100px;
-  width: 250px;
+  width: 252px;
 }
 
 img.ikonit {
@@ -753,7 +753,7 @@ h8 {
 .asiakkaat {
   opacity: 0.8;
   text-align: center;
-  margin-left: calc(50% - 700px);
+  margin: 0 auto;
   width: 1400px;
 }
 
@@ -871,6 +871,14 @@ h8 {
   cursor: pointer;
   background-color: rgba(255, 200, 10, 0);
   -webkit-transition: all 0.2s ease-in-out;
+}
+
+img.yhteistyo {
+  margin-top: 0px;
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-bottom: 100px;
+  width: 220px;
 }
 
 .menu-tab div {
