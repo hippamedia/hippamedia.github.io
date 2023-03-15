@@ -254,19 +254,19 @@ border-top-right-radius: 100%200px;
     animation: wave 10s -3s linear infinite;
     transform: translate3d(0, 0, 0);
     opacity: 0.8;
-    bottom: 12vh;
+    bottom: -88vh;
     left: 0%;
     z-index: 1;
 }
 
 .wave:nth-of-type(2) {
-    bottom: 10vh;
+    bottom: -90vh;
     animation: wave 18s linear reverse infinite;
     opacity: 0.8;
 }
 
 .wave:nth-of-type(3) {
-    bottom: 7vh;
+    bottom: -93vh;
     animation: wave 20s -1s reverse infinite;
     opacity: 0.9;
 }
