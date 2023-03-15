@@ -303,7 +303,8 @@ a:active {
 .asiakkaat {
   opacity: 0.8;
   text-align: center;
-  width: 100%;
+  width: 70%;
+  margin-left: 15%;
 }
 
 img {
@@ -532,7 +533,7 @@ hr.rounded {
   color: #FFFFFF;
   background-color: #FFFFFF;
   opacity: 0.1;
-  width: 80%;
+  width: 70%;
   margin-top: 200px;
   margin-left: auto;
   margin-right: auto;
@@ -544,7 +545,7 @@ hr.rounded1 {
   color: #FFFFFF;
   background-color: #FFFFFF;
   opacity: 0.1;
-  width: 80%;
+  width: 70%;
   margin-top: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -556,7 +557,7 @@ hr.roundeddark {
   color: #000000;
   background-color: #000000;
   opacity: 0.1;
-  width: 80%;
+  width: 70%;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: auto;
@@ -614,8 +615,8 @@ h1 {
   font-size: 4.5vw;
   margin-top: 150px;
   margin-bottom: 150px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 h2 {
@@ -628,8 +629,8 @@ h2 {
   font-size: 3vw;
   margin-top: 5%;
   margin-bottom: 200px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 h4 {
@@ -641,8 +642,8 @@ h4 {
   font-family: 'Alata', sans-serif;
   font-size: 30px;
   margin-top: 80px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 h5 {
@@ -655,8 +656,8 @@ h5 {
   font-size: 18px;
   margin-top: 200px;
   margin-bottom: 100px;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 h3 {
@@ -705,15 +706,15 @@ h8 {
 
 @media only screen and (min-width: 2001px) {
   hr.rounded {
-    width: 1600px;
+    width: 1400px;
   }
 
   hr.rounded1 {
-    width: 1600px;
+    width: 1400px;
   }
 
   hr.roundeddark {
-    width: 1600px;
+    width: 1400px;
   }
 
   .otsikko {
@@ -735,7 +736,7 @@ h8 {
     margin-left: calc(50% - 800px);
     margin-bottom: 20vh;
     margin-top: -7.5vh;
-    width: 1600px;
+    width: 1400px;
   }
 
   #content2 {
@@ -748,6 +749,13 @@ h8 {
     height: auto;
     text-align: center;
   }
+  
+.asiakkaat {
+  opacity: 0.8;
+  text-align: center;
+  margin-left: calc(50% - 700px);
+  width: 1400px;
+}
 
   img.logo {
     position: absolute;
@@ -772,8 +780,8 @@ h8 {
     letter-spacing: 0.4rem;
     font-family: 'Alata', sans-serif;
     font-size: 90px;
-    margin-left: calc(50% - 800px);
-    margin-right: calc(50% - 800px);
+    margin-left: calc(50% - 700px);
+    margin-right: calc(50% - 700px);
   }
 
   h2 {
@@ -784,8 +792,8 @@ h8 {
     letter-spacing: 0.4rem;
     font-family: 'Comfortaa', cursive;
     font-size: 60px;
-    margin-left: calc(50% - 800px);
-    margin-right: calc(50% - 800px);
+    margin-left: calc(50% - 700px);
+    margin-right: calc(50% - 700px);
   }
 
   h4 {
