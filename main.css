@@ -627,15 +627,23 @@ hr.roundeddark {
   margin-right: auto;
 }
 
+.skewed-bg{
+background: rgb(240, 240, 240);
+margin-top: 250px;
+margin-bottom: -350px;
+  transform: skew(0deg, -3deg);
+   
+  }
+
 #content3 {
-  background: rgb(240, 240, 240);
+  background: rgba(240, 240, 240, 0);
   position: relative;
-  top: 200px;
+  top: 50px;
   left: 50%;
-  transform: translate(-50%, 0%);
+  transform: translate(-50%, 0%) skew(0deg, 3deg);
   width: 100%;
   height: auto;
-  padding-bottom: 300px;
+  padding-bottom: 500px;
 }
 
 #form {
