@@ -13,7 +13,7 @@ html {
   max-width: 100%;
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* Internet Explorer 10+ */
-  background-color: rgba(4, 23, 43, 1);
+  background-color: rgba(240, 240, 240, 1);
   height: 100%;
   width: 100%;
   padding: 0;
@@ -184,16 +184,17 @@ a:active {
   position: fixed;
   z-index: 100;
   padding-top: 20px;
-  right: 0px;
+  right: 20px;
   cursor: pointer;
-  background-color: rgba(254, 213, 124, 1);
+  background-color: rgba(255, 255, 255, 0);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
 .menu-tab div {
   width: 45px;
   height: 6px;
-  background-color: #222222;
+  background-color: #000000;
+  -webkit-filter: drop-shadow(3px 4px 0px rgba(200,200,200,1));
   display: block;
   margin: 8px 23px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -205,14 +206,14 @@ a:active {
 /*end of menu-tab*/
 
 .menu-tab.active {
-  right: 0px;
+  right: 20px;
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: rgba(242, 74, 114, 1);
+  background-color: rgba(0, 0, 0, 0);
 }
 .menu-tab.active #one {
   -webkit-transform: translateY(14px) rotate(-135deg);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: #222222;
+  background-color: #FFFFFF;
   -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
@@ -224,7 +225,7 @@ a:active {
 .menu-tab.active #three {
   -webkit-transform: translateY(-14px) rotate(-45deg);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: #222222;
+  background-color: #FFFFFF;
   -webkit-filter: drop-shadow(0px 0px 0px rgba(0,0,0,0));
 }
 
@@ -240,7 +241,7 @@ a:active {
 } /*end of menu-hide*/
 .menu-hide.show {
   left: 0px;
-  background-color: rgba(254, 213, 124, 1);
+  background-color: rgba(0, 0, 0, 1);
   -webkit-transition: all 0.2s ease-in-out;
 }
 
@@ -308,30 +309,11 @@ top:90%;
   height: 100%;
 }
 
-.taustavideo {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  position: fixed;
-  width: 104%;
-  height: 104%;
-  overflow: hidden;
-  z-index: 0;
+video {
+  width: 70%;
+
 }
 
-.taustavideo video {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  filter: blur(0px);
-  min-width: 102%;
-  min-height: 102%;
-  transform: translateX(-50%) translateY(-50%);
-  opacity: 1;
-  z-index: 0;
-  background-color: rgba(255, 255, 255, 1);
-  
-}
 
 
 .grain {
@@ -525,7 +507,7 @@ img.ikonit {
   height: auto;
   text-align: center;
   z-index: 2;
-  background-color: rgba(4, 23, 43, 0.8);
+  background-color: rgba(15, 15, 15, 1);
 }
 
 #content {
@@ -634,6 +616,7 @@ margin-bottom: -350px;
   transform: skew(0deg, -3deg);
    
   }
+  
 
 #content3 {
   background: rgba(240, 240, 240, 0);
@@ -733,7 +716,7 @@ h5 {
 
 h3 {
   font-weight: 600;
-  color: #222222;
+  color: #FFFFFF;
   text-align: right;
   letter-spacing: 0.5rem;
   font-family: 'Alata', sans-serif;
@@ -893,7 +876,7 @@ h8 {
 
   h3 {
     font-weight: 600;
-    color: #222222;
+    color: #FFFFFF;
     text-align: center;
     letter-spacing: 0.5rem;
     font-family: 'Alata', sans-serif;
@@ -920,6 +903,9 @@ h8 {
     font-family: 'Comfortaa', cursive;
     font-size: 40px;
     margin-top: 500px;
+  }
+  video {
+  width: 1400px;
   }
 }
 
@@ -949,8 +935,8 @@ img.yhteistyo {
 .menu-tab div {
   width: 45px;
   height: 6px;
-  background-color: rgba(254, 213, 124, 1);
-  -webkit-filter: drop-shadow(4px 4px 0px rgba(34,34,34,1));
+  background-color: rgba(0, 0, 0, 1);
+  -webkit-filter: drop-shadow(3px 4px 0px rgba(200,200,200,1));
   display: block;
   margin: 8px 23px;
   -webkit-transition: all 0.2s ease-in-out;
@@ -963,7 +949,7 @@ img.yhteistyo {
 .menu-tab.active {
   right: calc(50% - 45px);
   -webkit-transition: all 0.2s ease-in-out;
-  background-color: rgba(255, 200, 10, 0);
+  background-color: rgba(0, 0, 0, 0);
   
 }
 
@@ -1164,7 +1150,7 @@ img.yhteistyo {
   h3 {
 	  line-height: 2;
     font-weight: 600;
-    color: #222222;
+    color: #FFFFFF;
     text-align: right;
     letter-spacing: 0.1rem;
     font-family: 'Alata', sans-serif;
@@ -1191,6 +1177,9 @@ img.yhteistyo {
     font-family: 'Comfortaa', cursive;
     font-size: 25px;
     margin-top: 500px;
+  }
+    video {
+  width: 80%;
   }
 
 }
