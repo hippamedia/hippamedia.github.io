@@ -299,14 +299,11 @@ top:90%;
 
 .valikko {
   position: absolute;
-  left: 50%;
-  top: 75%;
-  -moz-transform: translate(-50%, -50%); /* Firefox */
-  -ms-transform: translate(-50%, -50%);  /* IE 9 */
-  -webkit-transform: translate(-50%, -50%); /* Safari and Chrome*/
-  -o-transform: translate(-50%, -50%); /* Opera */
-  transform: translate(-50%, -50%);
-  height: 100%;
+  top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
 }
 
 video {
